@@ -4,12 +4,10 @@ jQuery( function( $ ) {
     } );
 
     $( '#pt-personalogin' ).click( function( event ) {
-	event.preventDefault();
 	navigator.id.request();
     } );
 
     $( '#pt-logout > a' ).click( function( event ) {
-	event.preventDefault();
 	navigator.id.logout();
     } );
 
