@@ -25,7 +25,35 @@ $messages['en'] = array(
 	'persona-desc' => 'Allows users to log in with their Mozilla Persona account.'
 );
 
+/** Message documentation (Message documentation)
+ * @author Beta16
+ */
 $messages['qqq'] = array(
 	'persona-login' => 'Label for the Persona login link and button',
-	'persona-desc' => 'Description for the extension (included on Special:Version).'
+	'persona-desc' => '{{desc}}',
 );
+
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'persona-login' => 'Mit Persona anmelden',
+	'persona-desc' => 'Ermöglicht es Benutzern, sich mit ihrem Mozilla-Persona-Konto anzumelden',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'persona-login' => 'Accedi con Persona',
+	'persona-desc' => "Permette agli utenti di effettuare l'accesso tramite la loro l'utenza Mozilla Persona.",
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'persona-login' => 'Persona でログイン',
+	'persona-desc' => '利用者が自分の Mozilla Persona アカウントでログインできるようにする。',
+);
+
