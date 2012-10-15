@@ -24,7 +24,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => 0.5,
 	'author' => 'Tyler Romeo',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Persona',
-	'description-message' => 'persona-desc'
+	'descriptionmsg' => 'persona-desc'
 );
 
 $wgHooks['BeforePageDisplay'][] = 'efAddPersonaModule';

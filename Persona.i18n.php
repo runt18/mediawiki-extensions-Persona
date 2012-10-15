@@ -22,8 +22,10 @@ $messages = array();
 
 $messages['en'] = array(
 	'persona-login' => 'Login with Persona',
+	'persona-desc' => 'Allows users to log in with their Mozilla Persona account.'
 );
 
 $messages['qqq'] = array(
 	'persona-login' => 'Label for the Persona login link and button',
+	'persona-desc' => 'Description for the extension (included on Special:Version).'
 );
