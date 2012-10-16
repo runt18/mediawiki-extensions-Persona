@@ -41,6 +41,22 @@ $messages['de'] = array(
 	'persona-desc' => 'Ermöglicht es Benutzern, sich mit ihrem Mozilla-Persona-Konto anzumelden',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'persona-login' => 'Iniciar sesión con Persona',
+	'persona-desc' => 'Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona',
+);
+
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'persona-login' => 'Rexistro con Persona',
+	'persona-desc' => 'Permite aos usuarios rexistrarse coa súa conta de Mozilla Persona',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -55,5 +71,13 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'persona-login' => 'Persona でログイン',
 	'persona-desc' => '利用者が自分の Mozilla Persona アカウントでログインできるようにする。',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'persona-login' => 'Најава со Persona',
+	'persona-desc' => 'Овозможува корисниците да се најавуваат со нивната сметка на Mozilla Persona.',
 );
 
