@@ -57,6 +57,14 @@ $messages['gl'] = array(
 	'persona-desc' => 'Permite aos usuarios rexistrarse coa súa conta de Mozilla Persona',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'persona-login' => 'Přizjewjenje z Persona',
+	'persona-desc' => 'Zmóžnja wužiwarjam so z jich kontom Mozilla Persona přizjewić.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
