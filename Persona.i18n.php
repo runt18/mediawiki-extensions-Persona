@@ -33,6 +33,14 @@ $messages['qqq'] = array(
 	'persona-desc' => '{{desc}}',
 );
 
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'persona-login' => 'Увайсьці праз Persona',
+	'persona-desc' => 'Дазваляе ўваходзіць праз рахунак у Mozilla Persona.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
