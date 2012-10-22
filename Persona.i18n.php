@@ -96,4 +96,3 @@ $messages['mk'] = array(
 	'persona-login' => 'Најава со Persona',
 	'persona-desc' => 'Овозможува корисниците да се најавуваат со нивната сметка на Mozilla Persona.',
 );
-
