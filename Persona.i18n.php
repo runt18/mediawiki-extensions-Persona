@@ -33,6 +33,14 @@ $messages['qqq'] = array(
 	'persona-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'persona-login' => 'Aniciar sesión con Persona',
+	'persona-desc' => 'Permite que los usuarios anicien sesión cola so cuenta de Mozilla Persona',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
@@ -63,6 +71,14 @@ $messages['es'] = array(
 $messages['gl'] = array(
 	'persona-login' => 'Rexistro con Persona',
 	'persona-desc' => 'Permite aos usuarios rexistrarse coa súa conta de Mozilla Persona',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'persona-login' => 'כניסה באמצעות פרסונה',
+	'persona-desc' => 'הוספת אפשרות להיכנס באמצעות חשבון מוזילה פרסונה.',
 );
 
 /** Upper Sorbian (hornjoserbsce)
