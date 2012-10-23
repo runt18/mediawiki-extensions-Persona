@@ -112,3 +112,11 @@ $messages['mk'] = array(
 	'persona-login' => 'Најава со Persona',
 	'persona-desc' => 'Овозможува корисниците да се најавуваат со нивната сметка на Mozilla Persona.',
 );
+
+/** Dutch (Nederlands)
+ * @author Wiki13
+ */
+$messages['nl'] = array(
+	'persona-login' => 'Inloggen met Persona',
+	'persona-desc' => 'Maakt het mogelijk om gebruikers te laten inloggen met hun Mozilla Persona account.',
+);
