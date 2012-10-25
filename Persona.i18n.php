@@ -114,9 +114,10 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Siebrand
  * @author Wiki13
  */
 $messages['nl'] = array(
-	'persona-login' => 'Inloggen met Persona',
-	'persona-desc' => 'Maakt het mogelijk om gebruikers te laten inloggen met hun Mozilla Persona account.',
+	'persona-login' => 'Aanmelden met Persona',
+	'persona-desc' => 'Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.',
 );
