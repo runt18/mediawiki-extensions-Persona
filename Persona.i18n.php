@@ -121,3 +121,11 @@ $messages['nl'] = array(
 	'persona-login' => 'Aanmelden met Persona',
 	'persona-desc' => 'Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.',
 );
+
+/** Romansh (rumantsch)
+ * @author Gion-andri
+ */
+$messages['rm'] = array(
+	'persona-login' => "S'annunziar cun Persona",
+	'persona-desc' => "Lubescha ad utilisaders da s'annunziar cun lur contos da Mozilla Persona.",
+);
