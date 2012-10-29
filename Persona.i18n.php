@@ -105,6 +105,14 @@ $messages['ja'] = array(
 	'persona-desc' => '利用者が自分の Mozilla Persona アカウントでログインできるようにする。',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'persona-login' => 'Mat Persona aloggen',
+	'persona-desc' => 'Erlaabt et Benotzer mat hirem Mozilla-Persona Benotzerkont anzeloggen',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
