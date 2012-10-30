@@ -65,6 +65,14 @@ $messages['es'] = array(
 	'persona-desc' => 'Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'persona-login' => 'Connexion avec Persona',
+	'persona-desc' => 'Permet aux utilisateurs de se connecter avec leur compte Persona de Mozilla.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
