@@ -145,3 +145,11 @@ $messages['rm'] = array(
 	'persona-login' => "S'annunziar cun Persona",
 	'persona-desc' => "Lubescha ad utilisaders da s'annunziar cun lur contos da Mozilla Persona.",
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'persona-login' => '用 Persona 登录',
+	'persona-desc' => '允许用户使用他们的 Mozilla Persona 帐户登录。',
+);
