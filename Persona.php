@@ -27,6 +27,8 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'persona-desc'
 );
 
+$wgPersonaLoginAnywhere = true;
+
 $wgHooks['BeforePageDisplay'][] = 'efAddPersonaModule';
 $wgHooks['UserLoginForm'][] = 'efAddPersonaLogin';
 $wgHooks['PersonalUrls'][] = 'efAddPersonaLinks';
@@ -50,7 +52,10 @@ $wgResourceModules['ext.persona'] = array(
  * @param &$skin Skin object
  */
 function efAddPersonaModule( OutputPage &$out, Skin &$skin ) {
-	if( !isset( $_SESSION ) ) {
+	global $wgPersonaLoginAnywhere;
+	if( !$wgPersonaLoginAnywhere ) {
+		return true;
+	} elseif( !isset( $_SESSION ) ) {
 		wfSetupSession();
 	}
 
@@ -90,7 +95,8 @@ function efAddPersonaLogin( $template ) {
  * @param $title Title currently being viewed
  */
 function efAddPersonaLinks( array &$personal_urls, Title $title ) {
-	if( !isset( $personal_urls['logout'] ) ) {
+	global $wgPersonaLoginAnywhere;
+	if( $wgPersonaLoginAnywhere && !isset( $personal_urls['logout'] ) ) {
 		$context = RequestContext::getMain();
 		$out = $context->getOutput();
 		$out->addModules( 'ext.persona' );
