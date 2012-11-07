@@ -50,6 +50,10 @@ $wgResourceModules['ext.persona'] = array(
  * @param &$skin Skin object
  */
 function efAddPersonaModule( OutputPage &$out, Skin &$skin ) {
+	if( !isset( $_SESSION ) ) {
+		wfSetupSession();
+	}
+
 	$out->addModules( 'ext.persona' );
 	if( !LoginForm::getLoginToken() ) {
 		LoginForm::setLoginToken();
