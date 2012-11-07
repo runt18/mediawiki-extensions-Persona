@@ -101,9 +101,9 @@ class ApiPersona extends ApiBase {
 
 	function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
+			array( 'sessionfailure' ),
+			array( 'actionthrottledtext' ),
 			array( 'code' => 'insecure', 'info' => 'Secure login is enabled, and an insecure (non-HTTPS) request was made.' ),
-			array( 'code' => 'notoken', 'info' => 'An invalid login token was provided.' ),
-			array( 'code' => 'throttled', 'info' => 'Login requests have been throttle.' ),
 			array( 'code' => 'failure', 'info' => 'The Persona verification API failed to verify your assertion.' ),
 			array( 'code' => 'error', 'info' => 'There was some sort of external server error.' ),
 			array( 'code' => 'dberror', 'info' => 'An internal database error occurred.' ),
@@ -115,7 +115,7 @@ class ApiPersona extends ApiBase {
 	function execute() {
 		global $wgSecureLogin;
 		if( $wgSecureLogin && WebRequest::detectProtocol() !== 'https' ) {
-			$this->dieUsageMsg( 'insecure' );
+			$this->dieUsage( 'Secure login is enabled, and an insecure (non-HTTPS) request was made.', 'insecure' );
 		}
 
 		$params = $this->extractRequestParams();
@@ -125,11 +125,11 @@ class ApiPersona extends ApiBase {
 		// is set for an empty user, effectively making this a per-IP only throttle.
 		if( !LoginForm::getLoginToken() ) {
 			LoginForm::setLoginToken();
-			$this->dieUsageMsg( 'notoken' );
+			$this->dieUsageMsg( 'sessionfailure' );
 		} elseif( LoginForm::incLoginThrottle( '' ) === true ) {
-			$this->dieUsageMsg( 'throttled' );
+			$this->dieUsageMsg( 'actionthrottledtext' );
 		} elseif( $params['token'] !== LoginForm::getLoginToken() ) {
-			$this->dieUsageMsg( 'notoken' );
+			$this->dieUsageMsg( 'sessionfailure' );
 		}
 
 		// Contact the verification server.
