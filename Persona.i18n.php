@@ -27,10 +27,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Beta16
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'persona-login' => 'Label for the Persona login link and button',
-	'persona-desc' => '{{desc}}',
+	'persona-desc' => '{{desc|name=Persona|url=http://www.mediawiki.org/wiki/Extension:Persona}}',
 );
 
 /** Asturian (asturianu)
