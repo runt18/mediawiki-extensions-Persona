@@ -58,6 +58,14 @@ $messages['de'] = array(
 	'persona-desc' => 'Ermöglicht es Benutzern, sich mit ihrem Mozilla-Persona-Konto anzumelden',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'persona-login' => 'Pśizjawjenje z Persona',
+	'persona-desc' => 'Zmóžnja wužywarjam se z jich kontom Mozilla Persona pśizjawiś.',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
