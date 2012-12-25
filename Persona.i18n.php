@@ -155,12 +155,35 @@ $messages['nl'] = array(
 	'persona-desc' => 'Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'persona-login' => 'Intra con Persona',
+	'persona-desc' => "A përmëtt a j'utent d'intré con sò cont Mozilla Persona.",
+);
+
 /** Romansh (rumantsch)
  * @author Gion-andri
  */
 $messages['rm'] = array(
 	'persona-login' => "S'annunziar cun Persona",
 	'persona-desc' => "Lubescha ad utilisaders da s'annunziar cun lur contos da Mozilla Persona.",
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'persona-login' => 'Autentificare cu Persona',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'persona-login' => 'Увійти, використовуючи Persona',
+	'persona-desc' => 'Дозволяє користувачам входити з допомогою облікового запису Mozilla Persona.',
 );
 
 /** Simplified Chinese (中文（简体）‎)
