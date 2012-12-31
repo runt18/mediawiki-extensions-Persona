@@ -178,6 +178,13 @@ $messages['ro'] = array(
 	'persona-login' => 'Autentificare cu Persona',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'persona-login' => 'පුද්ගලතාව සමඟ ප්‍රවිෂ්ට වන්න',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
