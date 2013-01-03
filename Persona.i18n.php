@@ -156,11 +156,12 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'persona-login' => 'Intra con Persona',
-	'persona-desc' => "A përmëtt a j'utent d'intré con sò cont Mozilla Persona.",
+	'persona-login' => 'Intré ant ël sistema con Persona',
+	'persona-desc' => "A përmëtt a j'utent d'intré ant ël sistema con sò cont Mozilla Persona.",
 );
 
 /** Romansh (rumantsch)
