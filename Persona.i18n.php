@@ -186,6 +186,14 @@ $messages['si'] = array(
 	'persona-login' => 'පුද්ගලතාව සමඟ ප්‍රවිෂ්ට වන්න',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'persona-login' => 'Logga in med Persona',
+	'persona-desc' => 'Låter användare att logga in med sitt Mozilla Persona-konto.',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
