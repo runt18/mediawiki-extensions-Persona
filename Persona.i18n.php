@@ -179,6 +179,14 @@ $messages['ro'] = array(
 	'persona-login' => 'Autentificare cu Persona',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'persona-login' => 'Tràse cu Persona',
+	'persona-desc' => "Permette a l'utinde de trasè cu 'u cunde lore de Mozilla Persona.",
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
