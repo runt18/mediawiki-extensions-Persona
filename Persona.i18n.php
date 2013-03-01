@@ -138,6 +138,14 @@ $messages['lb'] = array(
 	'persona-desc' => 'Erlaabt et Benotzer mat hirem Mozilla-Persona Benotzerkont anzeloggen',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'persona-login' => 'Login jo Persona',
+	'persona-desc' => 'Izinkan pangguno untuak login jo akun Mozilla Persona.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
