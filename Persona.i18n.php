@@ -74,6 +74,13 @@ $messages['es'] = array(
 	'persona-desc' => 'Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona',
 );
 
+/** Finnish (suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'persona-login' => 'Kirjaudu Persona-tunnuksella',
+);
+
 /** French (français)
  * @author Gomoko
  */
