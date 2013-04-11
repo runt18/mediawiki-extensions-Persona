@@ -137,6 +137,14 @@ $messages['ko'] = array(
 	'persona-desc' => '사용자가 자신의 Mozilla Persona 계정으로 로그인할 수 있도록 합니다.',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'persona-login' => 'Met <i lang="en>Persona</i> enlogge',
+	'persona-desc' => 'Löht Metmaacher övver iehre Zohjang zom <i lang="en">Persona</i> vun Mozilla enlogge.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
