@@ -240,3 +240,11 @@ $messages['zh-hans'] = array(
 	'persona-login' => '用 Persona 登录',
 	'persona-desc' => '允许用户使用他们的 Mozilla Persona 帐户登录。',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'persona-login' => '以Persona登入',
+	'persona-desc' => '容許用戶使用Mozilla Persona帳戶登入。',
+);
