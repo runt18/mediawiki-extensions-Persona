@@ -50,6 +50,14 @@ $messages['be-tarask'] = array(
 	'persona-desc' => 'Дазваляе ўваходзіць праз рахунак у Mozilla Persona.',
 );
 
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'persona-login' => 'Přihlásit pomocí Persona',
+	'persona-desc' => 'Umožňuje uživatelům přihlásit se pomocí účtu Mozilla Persona.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
