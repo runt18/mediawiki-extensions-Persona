@@ -142,7 +142,7 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'persona-login' => 'Persona로 로그인',
-	'persona-desc' => '사용자가 자신의 Mozilla Persona 계정으로 로그인할 수 있도록 합니다.',
+	'persona-desc' => '사용자가 자신의 Mozilla Persona 계정으로 로그인할 수 있습니다',
 );
 
 /** Colognian (Ripoarisch)
