@@ -195,6 +195,14 @@ $messages['pms'] = array(
 	'persona-desc' => "A përmëtt a j'utent d'intré ant ël sistema con sò cont Mozilla Persona.",
 );
 
+/** Portuguese (português)
+ * @author Fúlvio
+ */
+$messages['pt'] = array(
+	'persona-login' => 'Entrar com Persona',
+	'persona-desc' => 'Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona.',
+);
+
 /** Romansh (rumantsch)
  * @author Gion-andri
  */
