@@ -226,6 +226,14 @@ $messages['roa-tara'] = array(
 	'persona-desc' => "Permette a l'utinde de trasè cu 'u cunde lore de Mozilla Persona.",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'persona-login' => 'Войти, используя Persona',
+	'persona-desc' => 'Позволяет пользователям входить с помощью их учётной записи в Mozilla Persona.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
