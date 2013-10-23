@@ -8,12 +8,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
-
+ *
  * Extension:Persona is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
-
+ *
  * You should have received a copy of the GNU General Public License
  * along with Extension:Persona.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -22,7 +22,12 @@ $messages = array();
 
 $messages['en'] = array(
 	'persona-login' => 'Login with Persona',
-	'persona-desc' => 'Allows users to log in with their Mozilla Persona account.'
+	'persona-desc' => 'Allows users to log in with their Mozilla Persona account.',
+	'persona-error-insecure' => 'Logging in over an insecure connection is not allowed.',
+	'persona-error-failure' => 'Persona failed to verify your identity.',
+	'persona-error-dberror' => 'An internal database error occurred.',
+	'persona-error-invaliduser' => 'There is no user on {{SITENAME}} matching your Persona account.',
+	'persona-error-multipleusers' => 'There are multiple users with the same email address as your Persona account. Your account must have a unique email address to log in with Persona.',
 );
 
 /** Message documentation (Message documentation)
@@ -32,6 +37,11 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'persona-login' => 'Label for the Persona login link and button',
 	'persona-desc' => '{{desc|name=Persona|url=http://www.mediawiki.org/wiki/Extension:Persona}}',
+	'persona-error-insecure' => 'Error message displayed using mw.notify when attempting insecure login with $wgSecureLogin enabled',
+	'persona-error-failure' => 'Error message displayed using mw.notify when the Persona API fails to verify',
+	'persona-error-dberror' => 'Error message displayed using mw.notify when an internal error occurs',
+	'persona-error-invaliduser' => 'Error message displayed using mw.notify for invalid logins',
+	'persona-error-multipleusers' => 'Error message displayed using mw.notify when a Persona account matches multiple MediaWiki accounts',
 );
 
 /** Asturian (asturianu)

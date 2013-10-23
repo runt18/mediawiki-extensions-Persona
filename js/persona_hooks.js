@@ -1,57 +1,75 @@
-jQuery( function( $ ) {
-    $( '#wpPersona' ).click( function() {
-	navigator.id.request();
-    } );
+( function( $, mw ) {
+	'use strict';
 
-    $( '#pt-personalogin' ).click( function( event ) {
-	navigator.id.request();
-    } );
+	$( function( $ ) {
+		$( '#wpPersona' ).click( function() {
+			navigator.id.request();
+		} );
 
-    $( '#pt-logout > a' ).click( function( event ) {
-	navigator.id.logout();
-    } );
+		$( '#pt-personalogin' ).click( function() {
+			navigator.id.request();
+		} );
 
-    navigator.id.watch( {
-	loggedInUser: null,
-	onlogin: function( assertion ) {
-	    var api = new mw.Api();
-	    api.post( {
-		'action': 'persona',
-		'assertion': assertion,
-		'token': $( 'input[name="wpLoginToken"]' ).val(),
-		'stickhttps': $( '#wpStickHTTPS' ).val()
-	    } )
-	    .done( function ( data ) {
-		console.log( 'Persona login result:', data );
-		var vars = [], hash;
-		var q = document.URL.split( '?' )[1];
-		if( q != undefined ){
-		    q = q.split( '&' );
-		    for( var i = 0; i < q.length; i++ ){
-			hash = q[i].split( '=' );
-			vars.push( hash[1] );
-			vars[hash[0]] = hash[1];
-		    }
-		} else {
-			q = {};
-		}
+		$( '#pt-logout > a' ).click( function() {
+			navigator.id.logout();
+		} );
 
-		var title;
-		if( q['returnto'] != undefined ) {
-		    title = new mw.Title( q['returnto'] );
-			window.location.href = title.getUrl();
-		} else if( q['title'] != 'Special:Userlogin' ) {
-			window.location.reload();
-		} else {
-		    title = new mw.Title( 'Main Page' );
-			window.location.href = title.getUrl();
-		}
-	    } )
-	    .fail( function ( error ) {
-		console.log( 'Persona login failed.', error );
-		mw.util.jsMessage( 'Persona login failed.' );
-	    } );
-	},
-	onlogout: function() {}
-    } );
-} );
+		navigator.id.watch( {
+			loggedInUser: mw.config.get( 'wgPersonaUserEmail' ),
+			onlogin: function( assertion ) {
+				var api = new mw.Api();
+				api.post( {
+					'action': 'persona',
+					'assertion': assertion,
+					'token': $( 'input[name="wpLoginToken"]' ).val()
+				} )
+				.done( function ( data ) {
+					if ( data.login.status !== 'okay' ) {
+						console.log( 'Persona login failed.', data );
+						mw.notify( mw.message( 'persona-error-' + data.login.status ).text() );
+						navigator.id.logout();
+						return;
+					}
+
+					var vars, url, queryPos, fragPos, hash, q, title, lowercaseTitle;
+
+					console.log( 'Persona login result:', data );
+					vars = [];
+					url = document.URL;
+					queryPos = url.indexOf( '?' ) + 1;
+					fragPos = url.indexOf( '#', queryPos );
+					q = document.URL.substring( queryPos, fragPos );
+					if ( queryPos < fragPos && q !== "" ){
+						q = q.split( '&' );
+						for ( var i = 0; i < q.length; i++ ) {
+							hash = q[i].split( '=' );
+							vars[hash[0]] = decodeURIComponent( hash[1] ).replace( '+', ' ' );
+						}
+					} else {
+						vars = {};
+					}
+
+					lowercaseTitle = vars.title !== undefined ? vars.title.toLowerCase() : undefined;
+					if ( vars.returnto !== undefined ) {
+						title = new mw.Title( vars.returnto );
+						window.location.href = title.getUrl();
+					} else if ( lowercaseTitle !== 'special:userlogin' &&
+						lowercaseTitle !== 'special:userlogout'
+					) {
+						window.location.reload();
+					} else {
+						title = new mw.Title( 'Main_Page' );
+						window.location.href = title.getUrl();
+					}
+				} )
+				.fail( function ( error ) {
+					console.log( 'Persona login failed.', error );
+					mw.notify( mw.message( error ).text() );
+					navigator.id.logout();
+				} );
+			},
+			onlogout: function() {}
+		} );
+	} );
+
+} )( jQuery, mediaWiki );

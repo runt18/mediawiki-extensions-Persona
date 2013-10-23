@@ -8,12 +8,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
-
+ *
  * Extension:Persona is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
-
+ *
  * You should have received a copy of the GNU General Public License
  * along with Extension:Persona.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -27,6 +27,12 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'persona-desc'
 );
 
+/**
+ * Determines if the persona login link is displayed on every page in the personal URLs bar (true)
+ * or if it is only displayed on the login page (false).
+ *
+ * @var bool
+ */
 $wgPersonaLoginAnywhere = true;
 
 $wgHooks['BeforePageDisplay'][] = 'efAddPersonaModule';
@@ -37,37 +43,110 @@ $wgAPIModules['persona'] = 'ApiPersona';
 $wgExtensionMessagesFiles['Persona'] = __DIR__ . '/Persona.i18n.php';
 
 $wgResourceModules['ext.persona'] = array(
-	'scripts' => array( 'js/persona.js', 'js/persona_hooks.js' ),
-	'styles' => array(),
-	'messages' => array(),
-	'dependencies' => array( 'mediawiki.api', 'mediawiki.Title' ),
+	'scripts' => array( 'js/persona_hooks.js' ),
+	'messages' => array(
+		'sessionfailure',
+		'actionthrottledtext',
+		'persona-error-insecure',
+		'persona-error-failure',
+		'persona-error-dberror',
+		'persona-error-invaliduser',
+		'persona-error-multipleusers',
+	),
+	'dependencies' => array(
+		'mediawiki.api',
+		'mediawiki.Title',
+		'mediawiki.notify',
+		'mediawiki.jqueryMsg',
+	),
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'Persona'
+);
+$wgResourceModules['ext.persona.old'] = array(
+	'scripts' => array( 'js/persona_hooks_old.js' ),
+	'messages' => array(
+		'sessionfailure',
+		'actionthrottledtext',
+		'persona-error-insecure',
+		'persona-error-failure',
+		'persona-error-dberror',
+		'persona-error-invaliduser',
+		'persona-error-multipleusers',
+	),
+	'dependencies' => array(
+		'mediawiki.api',
+		'mediawiki.Title',
+		'mediawiki.notify',
+		'mediawiki.jqueryMsg',
+	),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Persona'
 );
 
 /**
- * Add the Persona module to the OutputPage.
+ * Add the Persona JS module and variables to the output page. Also make sure a session
+ * is started and a login token is set.
  *
- * @param &$out OutputPage object
- * @param &$skin Skin object
+ * @param User $user Current user that is logged in
+ * @param OutputPage $out Output page to add scripts to
  */
-function efAddPersonaModule( OutputPage &$out, Skin &$skin ) {
-	global $wgPersonaLoginAnywhere;
-	if( !$wgPersonaLoginAnywhere ) {
-		return true;
-	} elseif( !isset( $_SESSION ) ) {
+function efPersonaAddScripts( User $user, OutputPage $out ) {
+	global $wgVersion;
+
+	if ( !isset( $_SESSION ) ) {
 		wfSetupSession();
 	}
-
-	$out->addModules( 'ext.persona' );
-	if( !LoginForm::getLoginToken() ) {
+	if ( !LoginForm::getLoginToken() ) {
 		LoginForm::setLoginToken();
 	}
+
+	// Persona requires that IE compatibility mode be disabled
+	// Add the meta tag here in case MediaWiki core doesn't do it
+	$out->addMeta( 'http:X-UA-Compatible', 'IE=Edge' );
+
+	if ( ResourceLoader::inDebugMode() ) {
+		$out->addScriptFile( 'https://login.persona.org/include.orig.js' );
+	} else {
+		$out->addScriptFile( 'https://login.persona.org/include.js' );
+	}
+
+	if ( version_compare( $wgVersion, '1.20', '<' ) ) {
+		$out->addModules( 'ext.persona.old' );
+	} else {
+		$out->addModules( 'ext.persona' );
+	}
+
+	$out->addJsConfigVars( 'wgPersonaUserEmail',
+		$user->isEmailConfirmed() ? $user->getEmail() : null );
+}
+
+/**
+ * Add the Persona module to the OutputPage.
+ *
+ * @param OutputPage &$out
+ *
+ * @return bool true
+ */
+function efAddPersonaModule( OutputPage &$out ) {
+	global $wgPersonaLoginAnywhere;
+
+	// Only add the modules and whatnot if necessary.
+	if (
+		!$wgPersonaLoginAnywhere &&
+		$out->getTitle()->equals( SpecialPage::getTitleFor( 'Userlogin' ) )
+	) {
+		return true;
+	}
+
+	$context = RequestContext::getMain();
+	efPersonaAddScripts( $context->getUser(), $out );
+
 	$out->addHTML( Html::input(
 		'wpLoginToken',
 		LoginForm::getLoginToken(),
 		'hidden'
 	) );
+
 	return true;
 }
 
@@ -76,15 +155,21 @@ function efAddPersonaModule( OutputPage &$out, Skin &$skin ) {
  * to the login form.
  *
  * @param $template QuickTemplate
+ *
+ * @return bool true
  */
 function efAddPersonaLogin( $template ) {
-	$context = RequestContext::getMain();
-	$out = $context->getOutput();
-	$out->addModules( 'ext.persona' );
-
-	$label = wfMessage( 'persona-login' )->escaped();
-	$personaButton = Html::input( 'wpPersona', $label, 'button', array( 'id' => 'wpPersona' ) );
+	$personaButton = Html::input(
+		'wpPersona',
+		wfMessage( 'persona-login' )->text(),
+		'button',
+		array(
+			'id' => 'wpPersona',
+			'class' => 'mw-ui-button',
+		)
+	);
 	$template->set( 'header', $personaButton );
+
 	return true;
 }
 
@@ -93,19 +178,19 @@ function efAddPersonaLogin( $template ) {
  *
  * @param $personal_urls Array of personal URLs
  * @param $title Title currently being viewed
+ *
+ * @return bool true
  */
 function efAddPersonaLinks( array &$personal_urls, Title $title ) {
 	global $wgPersonaLoginAnywhere;
-	if( $wgPersonaLoginAnywhere && !isset( $personal_urls['logout'] ) ) {
-		$context = RequestContext::getMain();
-		$out = $context->getOutput();
-		$out->addModules( 'ext.persona' );
 
+	if ( $wgPersonaLoginAnywhere && !isset( $personal_urls['logout'] ) ) {
 		$personal_urls['personalogin'] = array(
 			'text' => wfMessage( 'persona-login' ),
 			'href' => '#',
 			'active' => $title->isSpecial( 'Userlogin' )
 		);
 	}
+
 	return true;
 }
