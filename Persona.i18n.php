@@ -74,6 +74,11 @@ $messages['cs'] = array(
 $messages['de'] = array(
 	'persona-login' => 'Mit Persona anmelden',
 	'persona-desc' => 'Ermöglicht es Benutzern, sich mit ihrem Mozilla-Persona-Konto anzumelden',
+	'persona-error-insecure' => 'Das Anmelden über eine unsichere Verbindung ist nicht erlaubt.',
+	'persona-error-failure' => 'Persona konnte deine Identität nicht verifizieren.',
+	'persona-error-dberror' => 'Es ist ein interner Datenbankfehler aufgetreten.',
+	'persona-error-invaliduser' => 'Es gibt auf {{SITENAME}} keinen Benutzer, der deinem Persona-Benutzerkonto entspricht.',
+	'persona-error-multipleusers' => 'Es gibt mehrere Benutzer mit der gleichen E-Mail-Adresse deines Persona-Benutzerkontos. Dein Benutzerkonto muss eine eindeutige E-Mail-Adresse haben, damit du dich mit Persona anmelden kannst.',
 );
 
 /** Lower Sorbian (dolnoserbski)
