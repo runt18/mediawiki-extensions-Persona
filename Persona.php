@@ -105,9 +105,11 @@ function efPersonaAddScripts( User $user, OutputPage $out ) {
 	$out->addMeta( 'http:X-UA-Compatible', 'IE=Edge' );
 
 	if ( ResourceLoader::inDebugMode() ) {
-		$out->addScriptFile( 'https://login.persona.org/include.orig.js' );
+		$out->addHeadItem( 'persona',
+			Html::linkedScript( 'https://login.persona.org/include.orig.js' ) );
 	} else {
-		$out->addScriptFile( 'https://login.persona.org/include.js' );
+		$out->addHeadItem( 'persona',
+			Html::linkedScript( 'https://login.persona.org/include.js' ) );
 	}
 
 	if ( version_compare( $wgVersion, '1.20', '<' ) ) {
