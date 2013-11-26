@@ -220,6 +220,14 @@ $messages['nl'] = array(
 	'persona-desc' => 'Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'persona-error-insecure' => 'Logowanie przez niezabezpieczone połączenie nie jest dozwolone.',
+	'persona-error-dberror' => 'Wystąpił błąd wewnętrzny bazy danych.',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
