@@ -152,6 +152,9 @@ $messages['hsb'] = array(
 $messages['it'] = array(
 	'persona-login' => 'Accedi con Persona',
 	'persona-desc' => "Permette agli utenti di effettuare l'accesso tramite la loro l'utenza Mozilla Persona.",
+	'persona-error-insecure' => "Non è consentito l'accesso tramite una connessione non sicura.",
+	'persona-error-failure' => 'Persona non è riuscito a verificare la tua identità.',
+	'persona-error-dberror' => 'Si è verificato un errore interno nel database.',
 );
 
 /** Japanese (日本語)
