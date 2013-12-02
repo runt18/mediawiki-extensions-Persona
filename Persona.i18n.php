@@ -190,8 +190,10 @@ $messages['ksh'] = array(
 $messages['lb'] = array(
 	'persona-login' => 'Mat Persona aloggen',
 	'persona-desc' => 'Erlaabt et Benotzer mat hirem Mozilla-Persona Benotzerkont anzeloggen',
+	'persona-error-insecure' => 'Aloggen iwwer eng net sécher Verbindung ass net erlaabt.',
 	'persona-error-failure' => 'Persona konnt Är Identitéit net verifizéieren.',
 	'persona-error-dberror' => 'An der Datebank ass een interne Feeler geschitt.',
+	'persona-error-invaliduser' => 'Et gëtt kee Benotzer op {{SITENAME}} op deen Äre Persona-Benotzerkont passt.',
 );
 
 /** Minangkabau (Baso Minangkabau)
