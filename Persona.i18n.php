@@ -60,7 +60,7 @@ $messages['be-tarask'] = array(
 	'persona-desc' => 'Дазваляе ўваходзіць праз рахунак у Mozilla Persona.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
