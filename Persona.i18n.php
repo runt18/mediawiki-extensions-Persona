@@ -328,6 +328,11 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'persona-login' => '用 Persona 登录',
 	'persona-desc' => '允许用户使用他们的 Mozilla Persona 帐户登录。',
+	'persona-error-insecure' => '不允许通过不安全的连接登录。',
+	'persona-error-failure' => 'Persona无法验证您的身份。',
+	'persona-error-dberror' => '发生内部数据库错误。',
+	'persona-error-invaliduser' => '在{{SITENAME}}上没有用户匹配你的Persona账户。',
+	'persona-error-multipleusers' => '这里有多个用户使用了与你的Persona账户相同的电子邮件地址。你用Persona登录的账户必须有一个唯一的电子邮件地址。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
