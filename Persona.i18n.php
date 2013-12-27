@@ -306,6 +306,11 @@ $messages['si'] = array(
 $messages['sv'] = array(
 	'persona-login' => 'Logga in med Persona',
 	'persona-desc' => 'Låter användare att logga in med sitt Mozilla Persona-konto.',
+	'persona-error-insecure' => 'Inloggning över en osäker anslutning är inte tillåtet.',
+	'persona-error-failure' => 'Persona misslyckades att verifiera din identitet.',
+	'persona-error-dberror' => 'Ett internt databasfel uppstod.',
+	'persona-error-invaliduser' => 'Det finns ingen användare på {{SITENAME}} som överensstämmer ditt Persona-konto.',
+	'persona-error-multipleusers' => 'Det finns flera användare med samma e-postadress som ditt Persona-konto. Ditt kontot måste ha en unik e-postadress för att logga in med Persona.',
 );
 
 /** Ukrainian (українська)
