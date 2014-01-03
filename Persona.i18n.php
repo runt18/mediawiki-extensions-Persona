@@ -26,7 +26,7 @@ $messages['en'] = array(
 	'persona-error-insecure' => 'Logging in over an insecure connection is not allowed.',
 	'persona-error-failure' => 'Persona failed to verify your identity.',
 	'persona-error-dberror' => 'An internal database error occurred.',
-	'persona-error-invaliduser' => 'There is no user on {{SITENAME}} matching your Persona account.',
+	'persona-error-invaliduser' => 'There is no user matching your Persona account.',
 	'persona-error-multipleusers' => 'There are multiple users with the same email address as your Persona account. Your account must have a unique email address to log in with Persona.',
 );
 

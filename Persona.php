@@ -57,7 +57,6 @@ $wgResourceModules['ext.persona'] = array(
 		'mediawiki.api',
 		'mediawiki.Title',
 		'mediawiki.notify',
-		'mediawiki.jqueryMsg',
 	),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Persona'
@@ -76,7 +75,6 @@ $wgResourceModules['ext.persona.old'] = array(
 	'dependencies' => array(
 		'mediawiki.api',
 		'mediawiki.Title',
-		'mediawiki.notify',
 		'mediawiki.jqueryMsg',
 	),
 	'localBasePath' => __DIR__,
