@@ -50,6 +50,11 @@ $messages['qqq'] = array(
 $messages['ast'] = array(
 	'persona-login' => 'Aniciar sesión con Persona',
 	'persona-desc' => 'Permite que los usuarios anicien sesión cola so cuenta de Mozilla Persona',
+	'persona-error-insecure' => 'Nun se permite aniciar sesión sobro una conexón insegura.',
+	'persona-error-failure' => 'Persona nun pudo comprobar la so identidá.',
+	'persona-error-dberror' => 'Hebo un error de base de datos internu.',
+	'persona-error-invaliduser' => 'Nun hai dengún usuariu de {{SITENAME}} que case cola so cuenta de Persona.',
+	'persona-error-multipleusers' => "Hai múltiples usuarios cola mesma direición de corréu que la cuenta de Persona. La so cuenta tien de tener una direición de corréu única p'aniciar sesión con Persona.",
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
