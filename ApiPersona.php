@@ -136,18 +136,18 @@ class ApiPersona extends ApiBase {
 		// Contact the verification server.
 		$assertion = $params['assertion'];
 		$request = MWHttpRequest::factory( 'https://login.persona.org/verify', array(
-			'method' => 'post',
+			'method' => 'POST',
 			'caInfo' => __DIR__ . '/persona.crt',
 			'sslVerifyHost' => true,
 			'sslVerifyCert' => true,
-			'postData' => wfArrayToCgi( array(
+			'postData' => FormatJson::encode( array(
 				'assertion' => $assertion,
 				'audience' => wfExpandUrl( '/', $wgSecureLogin ? PROTO_HTTPS : PROTO_HTTP )
 			) ),
 		) );
-		$request->setHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+		$request->setHeader( 'Content-Type', 'application/json' );
 
-		$status = $request->execute();
+		$request->execute();
 		$response = $request->getContent();
 		$result = (array)FormatJson::decode( $response );
 
