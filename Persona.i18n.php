@@ -53,7 +53,7 @@ $messages['ast'] = array(
 	'persona-error-insecure' => 'Nun se permite aniciar sesión sobro una conexón insegura.',
 	'persona-error-failure' => 'Persona nun pudo comprobar la so identidá.',
 	'persona-error-dberror' => 'Hebo un error de base de datos internu.',
-	'persona-error-invaliduser' => 'Nun hai dengún usuariu de {{SITENAME}} que case cola so cuenta de Persona.',
+	'persona-error-invaliduser' => 'Nun hai dengún usuariu de {{SITENAME}} que case cola so cuenta de Persona.', # Fuzzy
 	'persona-error-multipleusers' => "Hai múltiples usuarios cola mesma direición de corréu que la cuenta de Persona. La so cuenta tien de tener una direición de corréu única p'aniciar sesión con Persona.",
 );
 
@@ -82,7 +82,7 @@ $messages['de'] = array(
 	'persona-error-insecure' => 'Das Anmelden über eine unsichere Verbindung ist nicht erlaubt.',
 	'persona-error-failure' => 'Persona konnte deine Identität nicht verifizieren.',
 	'persona-error-dberror' => 'Es ist ein interner Datenbankfehler aufgetreten.',
-	'persona-error-invaliduser' => 'Es gibt auf {{SITENAME}} keinen Benutzer, der deinem Persona-Benutzerkonto entspricht.',
+	'persona-error-invaliduser' => 'Es gibt keinen Benutzer, der deinem Persona-Benutzerkonto entspricht.',
 	'persona-error-multipleusers' => 'Es gibt mehrere Benutzer mit der gleichen E-Mail-Adresse deines Persona-Benutzerkontos. Dein Benutzerkonto muss eine eindeutige E-Mail-Adresse haben, damit du dich mit Persona anmelden kannst.',
 );
 
@@ -219,7 +219,7 @@ $messages['mk'] = array(
 	'persona-error-insecure' => 'Не се допушта најава со небезбедна сметка.',
 	'persona-error-failure' => 'Персона не успеа да потврди кои сте.',
 	'persona-error-dberror' => 'Се појави внатрешна грешка во базата.',
-	'persona-error-invaliduser' => 'На {{SITENAME}} нема корисник што одговара на вашата сметка на Персона.',
+	'persona-error-invaliduser' => 'Нема корисник што одговара на вашата сметка на Персона.',
 	'persona-error-multipleusers' => 'Персона има повеќе од еден корисник со е-поштата што ја внесовте. Сметката мора да има единствена и неповторлива адреса за да може да работи.',
 );
 
@@ -314,7 +314,7 @@ $messages['sv'] = array(
 	'persona-error-insecure' => 'Inloggning över en osäker anslutning är inte tillåtet.',
 	'persona-error-failure' => 'Persona misslyckades att verifiera din identitet.',
 	'persona-error-dberror' => 'Ett internt databasfel uppstod.',
-	'persona-error-invaliduser' => 'Det finns ingen användare på {{SITENAME}} som överensstämmer ditt Persona-konto.',
+	'persona-error-invaliduser' => 'Det finns ingen användare som överensstämmer ditt Persona-konto.',
 	'persona-error-multipleusers' => 'Det finns flera användare med samma e-postadress som ditt Persona-konto. Ditt kontot måste ha en unik e-postadress för att logga in med Persona.',
 );
 
