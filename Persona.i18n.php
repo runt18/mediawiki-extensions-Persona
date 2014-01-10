@@ -53,7 +53,7 @@ $messages['ast'] = array(
 	'persona-error-insecure' => 'Nun se permite aniciar sesión sobro una conexón insegura.',
 	'persona-error-failure' => 'Persona nun pudo comprobar la so identidá.',
 	'persona-error-dberror' => 'Hebo un error de base de datos internu.',
-	'persona-error-invaliduser' => 'Nun hai dengún usuariu de {{SITENAME}} que case cola so cuenta de Persona.', # Fuzzy
+	'persona-error-invaliduser' => 'Nun hai dengún usuariu que case cola so cuenta de Persona.',
 	'persona-error-multipleusers' => "Hai múltiples usuarios cola mesma direición de corréu que la cuenta de Persona. La so cuenta tien de tener una direición de corréu única p'aniciar sesión con Persona.",
 );
 
@@ -118,7 +118,7 @@ $messages['fr'] = array(
 	'persona-error-insecure' => 'Se connecter via une connexion non sécurisée n’est pas autorisé.',
 	'persona-error-failure' => 'Persona n’a pas réussi à vérifier votre identité.',
 	'persona-error-dberror' => 'Une erreur de base de données interne s’est produite.',
-	'persona-error-invaliduser' => 'Il n’y a pas d’utilisateur dans {{SITENAME}} qui corresponde à votre compte Persona.',
+	'persona-error-invaliduser' => 'Il n’y a pas d’utilisateur qui corresponde à votre compte Persona.',
 	'persona-error-multipleusers' => 'Il y a plusieurs utilisateurs avec la même adresse de courriel que votre compte Persona. Votre compte doit avoir une adresse de courriel unique pour que vous puissiez vous connecter avec Persona.',
 );
 
@@ -170,7 +170,7 @@ $messages['ja'] = array(
 	'persona-desc' => '利用者が自分の Mozilla Persona アカウントでログインできるようにする。',
 	'persona-error-insecure' => '安全ではない接続でのログインは許可されていません。',
 	'persona-error-dberror' => 'データベース内部エラーが発生しました。',
-	'persona-error-invaliduser' => 'あなたのペルソナ アカウントに該当する利用者は{{SITENAME}}にはいません。',
+	'persona-error-invaliduser' => 'あなたのペルソナ アカウントに該当する利用者はいません。',
 );
 
 /** Korean (한국어)
@@ -286,6 +286,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (русский)
+ * @author NBS
  * @author Okras
  */
 $messages['ru'] = array(
@@ -294,7 +295,7 @@ $messages['ru'] = array(
 	'persona-error-insecure' => 'Вход через незащищённое соединение не разрешён.',
 	'persona-error-failure' => 'Persona не смогла проверить вашу личность.',
 	'persona-error-dberror' => 'Произошла внутренняя ошибка базы данных.',
-	'persona-error-invaliduser' => 'На {{SITENAME}} нет пользователя с указанной вами учётной записью Persona.',
+	'persona-error-invaliduser' => 'Нет пользователя с указанной вами учётной записью.',
 	'persona-error-multipleusers' => 'Существует несколько пользователей с тем же адресом электронной почты, что и у вашей учётной записи Persona. Ваша учётная запись должна иметь уникальный адрес электронной почты для того, чтоб можно было входить с помощью Persona.',
 );
 
@@ -328,7 +329,7 @@ $messages['uk'] = array(
 	'persona-error-insecure' => "Вхід через незахищене з'єднання не допускається.",
 	'persona-error-failure' => 'Не вдалося перевірити вашу особистість.',
 	'persona-error-dberror' => 'Сталася помилка внутрішньої бази даних.',
-	'persona-error-invaliduser' => 'Немає користувача на {{SITENAME}} відповідного вашому  обліковому запису Persona.',
+	'persona-error-invaliduser' => 'Немає користувача відповідного вашому  обліковому запису Persona.',
 	'persona-error-multipleusers' => 'Існує декілька користувачів з однаковою електронною поштою, як у вашому обліковому записі Persona. Ваш обліковий запис повинен мати унікальну адресу електронної пошти для входу через Persona.',
 );
 
