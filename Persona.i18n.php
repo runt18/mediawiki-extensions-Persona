@@ -198,7 +198,7 @@ $messages['lb'] = array(
 	'persona-error-insecure' => 'Aloggen iwwer eng net sécher Verbindung ass net erlaabt.',
 	'persona-error-failure' => 'Persona konnt Är Identitéit net verifizéieren.',
 	'persona-error-dberror' => 'An der Datebank ass een interne Feeler geschitt.',
-	'persona-error-invaliduser' => 'Et gëtt kee Benotzer op {{SITENAME}} op deen Äre Persona-Benotzerkont passt.',
+	'persona-error-invaliduser' => 'Et gëtt kee Benotzer op deen Äre Persona-Benotzerkont passt.',
 	'persona-error-multipleusers' => 'Et gëtt méi Benotzer mat därselwechter E-Mail-Adress wéi Äre Persona-Benotzerkont. Äre Benotzerkont muss eng eendeiteg E-Mail-Adress hu fir datt Dir Iech mat Persona alogge kënnt.',
 );
 
