@@ -174,11 +174,13 @@ $messages['ja'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
 	'persona-login' => 'Persona로 로그인',
 	'persona-desc' => '사용자가 자신의 Mozilla Persona 계정으로 로그인할 수 있습니다',
+	'persona-error-dberror' => '내부 데이터베이스 오류가 발생했습니다.',
 );
 
 /** Colognian (Ripoarisch)
