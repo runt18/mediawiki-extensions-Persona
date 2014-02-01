@@ -128,6 +128,11 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'persona-login' => 'Rexistro con Persona',
 	'persona-desc' => 'Permite aos usuarios rexistrarse coa súa conta de Mozilla Persona',
+	'persona-error-insecure' => 'O rexistro mediante unha conexión insegura non está permitido.',
+	'persona-error-failure' => 'Persona fallou ao comprobar a súa identidade.',
+	'persona-error-dberror' => 'Produciuse un erro interno na base de datos.',
+	'persona-error-invaliduser' => 'Non hai ningún usuario que coincida coa súa conta de Persona.',
+	'persona-error-multipleusers' => 'Hai varios usuarios co mesmo enderezo de correo electrónico que a súa conta de Persona. A súa conta debe ter un único enderezo para acceder con Persona.',
 );
 
 /** Hebrew (עברית)
