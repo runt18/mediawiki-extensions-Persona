@@ -24,15 +24,19 @@
 					'token': $( 'input[name="wpLoginToken"]' ).val()
 				} )
 				.done( function ( data ) {
+					var i, vars, url, queryPos, fragPos, hash, q, title, lowercaseTitle;
+					
+					if ( data.login.status === 'usernotfound' ) {
+						title = new mw.Title( 'Special:PersonaSignup' );
+						window.location.href = title.getUrl();
+					}
 					if ( data.login.status !== 'okay' ) {
 						mw.notify( mw.message( 'persona-error-' + data.login.status ).text() );
 						navigator.id.logout();
 						return;
 					}
 
-					var i, vars, url, queryPos, fragPos, hash, q, title, lowercaseTitle;
-
-					vars = [];
+					vars = {};
 					url = document.URL;
 					queryPos = url.indexOf( '?' ) + 1;
 					fragPos = url.indexOf( '#', queryPos );

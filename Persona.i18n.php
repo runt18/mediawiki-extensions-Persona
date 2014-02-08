@@ -21,13 +21,19 @@
 $messages = array();
 
 $messages['en'] = array(
-	'persona-login' => 'Login with Persona',
+	'persona-login' => 'Log in with Persona',
 	'persona-desc' => 'Allows users to log in with their Mozilla Persona account.',
 	'persona-error-insecure' => 'Logging in over an insecure connection is not allowed.',
 	'persona-error-failure' => 'Persona failed to verify your identity.',
 	'persona-error-dberror' => 'An internal database error occurred.',
 	'persona-error-invaliduser' => 'There is no user matching your Persona account.',
 	'persona-error-multipleusers' => 'There are multiple users with the same email address as your Persona account. Your account must have a unique email address to log in with Persona.',
+	'personasignup' => 'Sign up with Persona',
+	'persona-signup-username' => 'Username:',
+	'persona-signup-password' => 'Password:',
+	'persona-signup-name' =>  'Name (optional):',
+	'persona-signup-email' => 'Email address:',
+	'persona-signup-legend' => 'No account exists with this Persona e-mail address. Create an account here.',
 );
 
 /** Message documentation (Message documentation)
@@ -42,6 +48,12 @@ $messages['qqq'] = array(
 	'persona-error-dberror' => 'Error message displayed using mw.notify when an internal error occurs',
 	'persona-error-invaliduser' => 'Error message displayed using mw.notify for invalid logins',
 	'persona-error-multipleusers' => 'Error message displayed using mw.notify when a Persona account matches multiple MediaWiki accounts',
+	'personasignup' => 'Page title for Special:Persona',
+	'persona-signup-username' => 'Signup username label for Special:Persona',
+	'persona-signup-password' => 'Signup password label for Special:Persona',
+	'persona-signup-name' =>  'Signup real name label for Special:Persona',
+	'persona-signup-email' => 'Signup email address label for Special:Persona',
+	'personal-signup-legend' => 'Signup legend displayed when Persona e-mail is not tied with an existing account',
 );
 
 /** Asturian (asturianu)

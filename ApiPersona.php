@@ -114,6 +114,7 @@ class ApiPersona extends ApiBase {
 
 	function execute() {
 		global $wgSecureLogin;
+		$webRequest = $this->getRequest();
 
 		if ( $wgSecureLogin && WebRequest::detectProtocol() !== 'https' ) {
 			$this->dieUsage( 'Secure login is enabled, and an insecure (non-HTTPS) request was made.', 'insecure' );
@@ -178,7 +179,8 @@ class ApiPersona extends ApiBase {
 			if ( $res === false ) {
 				$result['status'] = 'dberror';
 			} elseif ( $res->numRows() == 0 ) {
-				$result['status'] = 'invaliduser';
+				$result['status'] = 'usernotfound';
+				$webRequest->setSessionData( 'persona_email', $result['email'] );
 			} elseif ( $res->numRows() > 1 ) {
 				$result['status'] = 'multipleusers';
 			} else {

@@ -38,9 +38,13 @@ $wgPersonaLoginAnywhere = true;
 $wgHooks['BeforePageDisplay'][] = 'efAddPersonaModule';
 $wgHooks['UserLoginForm'][] = 'efAddPersonaLogin';
 $wgHooks['PersonalUrls'][] = 'efAddPersonaLinks';
+$wgAutoloadClasses['SpecialPersonaSignup'] = __DIR__ . '/SpecialPersonaSignup.php';
 $wgAutoloadClasses['ApiPersona'] = __DIR__ . '/ApiPersona.php';
+$wgSpecialPages['PersonaSignup'] = 'SpecialPersonaSignup';
+$wgSpecialPageGroups['PersonaSignup'] = 'login';
 $wgAPIModules['persona'] = 'ApiPersona';
 $wgExtensionMessagesFiles['Persona'] = __DIR__ . '/Persona.i18n.php';
+$wgExtensionMessagesFiles['PersonaAlias'] = __DIR__ . '/Persona.i18n.alias.php';
 
 $wgResourceModules['ext.persona'] = array(
 	'scripts' => array( 'js/persona_hooks.js' ),
