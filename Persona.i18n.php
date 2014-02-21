@@ -236,6 +236,7 @@ $messages['mk'] = array(
 
 /** Dutch (Nederlands)
  * @author Siebrand
+ * @author Southparkfan
  * @author Wiki13
  */
 $messages['nl'] = array(
@@ -244,7 +245,7 @@ $messages['nl'] = array(
 	'persona-error-insecure' => 'Aanmelden via een niet-beveiligde verbinding is niet toegestaan.',
 	'persona-error-failure' => 'Persona kon uw identiteit niet verifiëren.',
 	'persona-error-dberror' => 'Er is een interne databasefout opgetreden.',
-	'persona-error-invaliduser' => 'Er is geen gebruiker op {{SITENAME}} die overeenkomt met uw Personagebruiker.',
+	'persona-error-invaliduser' => 'Er is geen gebruiker die overeenkomt met uw Personagebruiker.',
 	'persona-error-multipleusers' => 'Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona.',
 );
 
