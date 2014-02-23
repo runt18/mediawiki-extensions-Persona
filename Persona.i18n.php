@@ -102,6 +102,20 @@ $messages['es'] = array(
 	'persona-desc' => 'Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'persona-login' => 'ورود به سیستم شخصی',
+	'persona-desc' => 'اجازه به کاربران برای ورود با حساب شخصی موزیلای خود.',
+	'persona-error-insecure' => 'ورود به اتصال ناامن مجاز نمی‌باشد.',
+	'persona-error-failure' => 'عدم موفقیت شخصیت برای تأیید هویت شما.',
+	'persona-error-dberror' => 'یک خطای پایگاه اطلاعاتی داخلی رخ داد.',
+	'persona-error-invaliduser' => 'هیچ کاربری با حساب شخصی شما مطابقت ندارد.',
+	'persona-error-multipleusers' => 'چند کاربر با آدرس‌ رایانامهٔ مشابه به عنوان حساب شخصی شما وجود دارند.‌‌‌ 
+حساب شما باید یک آدرس رایانامه مخحصر به فرد برای ورود شخصی داشته باشد.',
+);
+
 /** Finnish (suomi)
  * @author Silvonen
  */
