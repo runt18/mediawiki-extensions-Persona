@@ -104,9 +104,10 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  */
 $messages['fa'] = array(
-	'persona-login' => 'ورود به سیستم شخصی',
+	'persona-login' => 'ورود با پرسونا',
 	'persona-desc' => 'اجازه به کاربران برای ورود با حساب شخصی موزیلای خود.',
 	'persona-error-insecure' => 'ورود به اتصال ناامن مجاز نمی‌باشد.',
 	'persona-error-failure' => 'عدم موفقیت شخصیت برای تأیید هویت شما.',
