@@ -152,6 +152,7 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Inkbug
  */
 $messages['he'] = array(
 	'persona-login' => 'כניסה באמצעות פרסונה',
@@ -159,7 +160,7 @@ $messages['he'] = array(
 	'persona-error-insecure' => 'הכניסה דרך חיבור בלתי־מאובטח אסורה.',
 	'persona-error-failure' => 'פרסונה לא הצליחה לאמת את הזהות שלך.',
 	'persona-error-dberror' => 'אירעה שגאית מסד נתונים פנימית.',
-	'persona-error-invaliduser' => 'אין משתמש באתר {{SITENAME}} שמתאים לחשבון הפרסונה שלך.',
+	'persona-error-invaliduser' => 'אין משתמש שמתאים לחשבון הפרסונה שלך.',
 	'persona-error-multipleusers' => 'יש משתמשים מרובים עם אותה כתובת דואר אלקטרוני כמו בחשבון הפרסונה שלך. לחשבון שלך צריכה להיות כתובת ייחודית כדי להיכנס באמצעות פרסונה.',
 );
 
