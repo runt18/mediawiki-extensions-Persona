@@ -2,6 +2,8 @@
 	'use strict';
 
 	$( function( $ ) {
+		$( '#wpPersona' ).css( 'display', 'block' );
+		$( '#pt-personalogin > a' ).removeClass( 'printfooter' );
 		$( '#wpPersona' ).click( function() {
 			navigator.id.request();
 		} );
