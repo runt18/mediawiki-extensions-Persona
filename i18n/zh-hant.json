@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Justincheng12345"
+        ]
+    },
+    "persona-login": "以Persona登入",
+    "persona-desc": "容許用戶使用Mozilla Persona帳戶登入。"
+}

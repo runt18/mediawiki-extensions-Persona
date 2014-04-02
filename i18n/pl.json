@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chrumps"
+        ]
+    },
+    "persona-error-insecure": "Logowanie przez niezabezpieczone połączenie nie jest dozwolone.",
+    "persona-error-dberror": "Wystąpił błąd wewnętrzny bazy danych."
+}

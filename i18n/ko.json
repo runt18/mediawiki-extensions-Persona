@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Priviet",
+            "아라"
+        ]
+    },
+    "persona-login": "Persona로 로그인",
+    "persona-desc": "사용자가 자신의 Mozilla Persona 계정으로 로그인할 수 있습니다",
+    "persona-error-insecure": "보안 연결을 통해서만 로그인할 수 있습니다.",
+    "persona-error-failure": "Persona가 당신의 신원을 확인하지 못 했습니다.",
+    "persona-error-dberror": "내부 데이터베이스 오류가 발생했습니다.",
+    "persona-error-invaliduser": "Persona 계정과 일치하는 사용자가 없습니다.",
+    "persona-error-multipleusers": "같은 이메일을 사용하는 여러 개의 사용자가 있습니다. 계정은 Persona로 로그인하기 위해서는 고유한 이메일 주소를 가져야 합니다."
+}

@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armando-Martin"
+        ]
+    },
+    "persona-login": "Iniciar sesión con Persona",
+    "persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona"
+}

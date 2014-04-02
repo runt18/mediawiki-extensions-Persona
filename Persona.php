@@ -1,5 +1,4 @@
 <?php
-
 /**
  * This file is part of the MediaWiki extension Persona.
  * Copyright (C) 2012 Tyler Romeo <tylerromeo@gmail.com>
@@ -21,7 +20,7 @@
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Persona',
-	'version' => 0.5,
+	'version' => '0.6.0',
 	'author' => 'Tyler Romeo',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Persona',
 	'descriptionmsg' => 'persona-desc'
@@ -43,6 +42,7 @@ $wgAutoloadClasses['ApiPersona'] = __DIR__ . '/ApiPersona.php';
 $wgSpecialPages['PersonaSignup'] = 'SpecialPersonaSignup';
 $wgSpecialPageGroups['PersonaSignup'] = 'login';
 $wgAPIModules['persona'] = 'ApiPersona';
+$wgMessagesDirs['Persona'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Persona'] = __DIR__ . '/Persona.i18n.php';
 $wgExtensionMessagesFiles['PersonaAlias'] = __DIR__ . '/Persona.i18n.alias.php';
 

@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Mormegil"
+        ]
+    },
+    "persona-login": "Přihlásit pomocí Persona",
+    "persona-desc": "Umožňuje uživatelům přihlásit se pomocí účtu Mozilla Persona."
+}

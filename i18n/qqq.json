@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Beta16",
+            "Shirayuki"
+        ]
+    },
+    "persona-login": "Label for the Persona login link and button",
+    "persona-desc": "{{desc|name=Persona|url=http://www.mediawiki.org/wiki/Extension:Persona}}",
+    "persona-error-insecure": "Error message displayed using mw.notify when attempting insecure login with $wgSecureLogin enabled",
+    "persona-error-failure": "Error message displayed using mw.notify when the Persona API fails to verify",
+    "persona-error-dberror": "Error message displayed using mw.notify when an internal error occurs",
+    "persona-error-invaliduser": "Error message displayed using mw.notify for invalid logins",
+    "persona-error-multipleusers": "Error message displayed using mw.notify when a Persona account matches multiple MediaWiki accounts",
+    "personasignup": "Page title for Special:Persona",
+    "persona-signup-username": "Signup username label for Special:Persona",
+    "persona-signup-password": "Signup password label for Special:Persona",
+    "persona-signup-name": "Signup real name label for Special:Persona",
+    "persona-signup-email": "Signup email address label for Special:Persona",
+    "personal-signup-legend": "Signup legend displayed when Persona e-mail is not tied with an existing account"
+}
