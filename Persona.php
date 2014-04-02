@@ -170,6 +170,7 @@ function efAddPersonaLogin( $template ) {
 		array(
 			'id' => 'wpPersona',
 			'class' => 'mw-ui-button',
+			'style' => 'display:none',
 		)
 	);
 	$template->set( 'header', $personaButton );
@@ -192,7 +193,8 @@ function efAddPersonaLinks( array &$personal_urls, Title $title ) {
 		$personal_urls['personalogin'] = array(
 			'text' => wfMessage( 'persona-login' ),
 			'href' => '#',
-			'active' => $title->isSpecial( 'Userlogin' )
+			'active' => $title->isSpecial( 'Userlogin' ),
+			'class' => 'printfooter',
 		);
 	}
 
