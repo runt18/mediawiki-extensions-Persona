@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Beta16",
-            "Shirayuki"
+            "Shirayuki",
+            "Robby"
         ]
     },
     "persona-login": "Label for the Persona login link and button",
@@ -13,9 +14,8 @@
     "persona-error-invaliduser": "Error message displayed using mw.notify for invalid logins",
     "persona-error-multipleusers": "Error message displayed using mw.notify when a Persona account matches multiple MediaWiki accounts",
     "personasignup": "Page title for Special:Persona",
-    "persona-signup-username": "Signup username label for Special:Persona",
-    "persona-signup-password": "Signup password label for Special:Persona",
+    "persona-signup-username": "Signup username label for Special:Persona\n{{Identical|Username}}",
+    "persona-signup-password": "Signup password label for Special:Persona\n{{Identical|Password}}",
     "persona-signup-name": "Signup real name label for Special:Persona",
-    "persona-signup-email": "Signup email address label for Special:Persona",
-    "personal-signup-legend": "Signup legend displayed when Persona e-mail is not tied with an existing account"
+    "persona-signup-email": "Signup email address label for Special:Persona\n{{Identical|E-mail address}}"
 }

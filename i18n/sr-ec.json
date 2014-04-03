@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Milicevic01"
+        ]
+    },
+    "persona-signup-username": "Корисничко име:",
+    "persona-signup-password": "Лозинка:",
+    "persona-signup-email": "Е-пошта:"
+}

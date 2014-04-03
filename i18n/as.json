@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bishnu Saikia"
+        ]
+    },
+    "persona-signup-username": "সদস্যনাম:",
+    "persona-signup-password": "গুপ্তশব্দ:",
+    "persona-signup-email": "ই-মেইল ঠিকনা:"
+}

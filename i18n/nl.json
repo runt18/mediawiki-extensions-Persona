@@ -3,7 +3,8 @@
         "authors": [
             "Siebrand",
             "Southparkfan",
-            "Wiki13"
+            "Wiki13",
+            "SPQRobin"
         ]
     },
     "persona-login": "Aanmelden met Persona",
@@ -12,5 +13,9 @@
     "persona-error-failure": "Persona kon uw identiteit niet verifiëren.",
     "persona-error-dberror": "Er is een interne databasefout opgetreden.",
     "persona-error-invaliduser": "Er is geen gebruiker die overeenkomt met uw Personagebruiker.",
-    "persona-error-multipleusers": "Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona."
+    "persona-error-multipleusers": "Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona.",
+    "persona-signup-username": "Gebruikersnaam:",
+    "persona-signup-password": "Wachtwoord:",
+    "persona-signup-name": "Naam (optioneel):",
+    "persona-signup-email": "E-mailadres:"
 }

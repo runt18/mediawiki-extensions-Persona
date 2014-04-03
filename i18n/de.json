@@ -10,5 +10,11 @@
     "persona-error-failure": "Persona konnte deine Identität nicht verifizieren.",
     "persona-error-dberror": "Es ist ein interner Datenbankfehler aufgetreten.",
     "persona-error-invaliduser": "Es gibt keinen Benutzer, der deinem Persona-Benutzerkonto entspricht.",
-    "persona-error-multipleusers": "Es gibt mehrere Benutzer mit der gleichen E-Mail-Adresse deines Persona-Benutzerkontos. Dein Benutzerkonto muss eine eindeutige E-Mail-Adresse haben, damit du dich mit Persona anmelden kannst."
+    "persona-error-multipleusers": "Es gibt mehrere Benutzer mit der gleichen E-Mail-Adresse deines Persona-Benutzerkontos. Dein Benutzerkonto muss eine eindeutige E-Mail-Adresse haben, damit du dich mit Persona anmelden kannst.",
+    "personasignup": "Mit Persona registrieren",
+    "persona-signup-username": "Benutzername:",
+    "persona-signup-password": "Passwort:",
+    "persona-signup-name": "Name (optional):",
+    "persona-signup-email": "E-Mail-Adresse:",
+    "persona-signup-legend": "Es ist kein Benutzerkonto mit dieser Persona-E-Mail-Adresse vorhanden. Hier ein Benutzerkonto erstellen."
 }
