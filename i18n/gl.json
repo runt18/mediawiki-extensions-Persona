@@ -10,5 +10,11 @@
     "persona-error-failure": "Persona fallou ao comprobar a súa identidade.",
     "persona-error-dberror": "Produciuse un erro interno na base de datos.",
     "persona-error-invaliduser": "Non hai ningún usuario que coincida coa súa conta de Persona.",
-    "persona-error-multipleusers": "Hai varios usuarios co mesmo enderezo de correo electrónico que a súa conta de Persona. A súa conta debe ter un único enderezo para acceder con Persona."
+    "persona-error-multipleusers": "Hai varios usuarios co mesmo enderezo de correo electrónico que a súa conta de Persona. A súa conta debe ter un único enderezo para acceder con Persona.",
+    "personasignup": "Rexistrarse con Persona",
+    "persona-signup-username": "Nome de usuario:",
+    "persona-signup-password": "Contrasinal:",
+    "persona-signup-name": "Nome (opcional):",
+    "persona-signup-email": "Enderezo de correo electrónico:",
+    "persona-signup-legend": "Non existe ningunha conta con ese enderezo de correo electrónico. Cree aquí unha conta."
 }

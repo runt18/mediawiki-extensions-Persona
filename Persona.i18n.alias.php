@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'PersonaSignup' => array( 'PersonaSignup' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'PersonaSignup' => array( 'Persona-Registrierung' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'PersonaSignup' => array( '角色注册' ),

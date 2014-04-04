@@ -13,5 +13,6 @@
     "persona-error-multipleusers": "Et gëtt méi Benotzer mat därselwechter E-Mail-Adress wéi Äre Persona-Benotzerkont. Äre Benotzerkont muss eng eendeiteg E-Mail-Adress hu fir datt Dir Iech mat Persona alogge kënnt.",
     "persona-signup-username": "Benotzernumm:",
     "persona-signup-password": "Passwuert:",
+    "persona-signup-name": "Numm (fakultativ):",
     "persona-signup-email": "E-Mail-Adress:"
 }
