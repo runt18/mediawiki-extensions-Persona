@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "persona-login": "Connexion amb Persona",
+    "persona-signup-username": "Nom de l'utilizaire :",
+    "persona-signup-password": "Senhal :",
+    "persona-signup-name": "Nom (facultatiu) :",
+    "persona-signup-email": "Adreça de corrièr electronic :"
+}
