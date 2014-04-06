@@ -1,9 +1,14 @@
 {
     "@metadata": {
         "authors": [
-            "Armando-Martin"
+            "Armando-Martin",
+            "Fitoschido"
         ]
     },
     "persona-login": "Iniciar sesión con Persona",
-    "persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona"
+    "persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona",
+    "persona-signup-username": "Nombre de usuario:",
+    "persona-signup-password": "Contraseña:",
+    "persona-signup-name": "Nombre (opcional):",
+    "persona-signup-email": "Dirección de correo electrónico:"
 }
