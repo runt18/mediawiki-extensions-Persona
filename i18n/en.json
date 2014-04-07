@@ -3,7 +3,7 @@
         "authors": []
     },
     "persona-login": "Log in with Persona",
-    "persona-desc": "Allows users to log in with their Mozilla Persona account.",
+    "persona-desc": "Allows users to log in with their Mozilla Persona account",
     "persona-error-insecure": "Logging in over an insecure connection is not allowed.",
     "persona-error-failure": "Persona failed to verify your identity.",
     "persona-error-dberror": "An internal database error occurred.",
@@ -14,5 +14,5 @@
     "persona-signup-password": "Password:",
     "persona-signup-name": "Name (optional):",
     "persona-signup-email": "Email address:",
-    "persona-signup-legend": "No account exists with this Persona e-mail address. Create an account here."
+    "persona-signup-legend": "No account exists with this Persona email address. Create an account here."
 }
