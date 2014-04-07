@@ -8,5 +8,9 @@
     "persona-desc": "利用者が自分の Mozilla Persona アカウントでログインできるようにする。",
     "persona-error-insecure": "安全ではない接続でのログインは許可されていません。",
     "persona-error-dberror": "データベース内部エラーが発生しました。",
-    "persona-error-invaliduser": "あなたのペルソナ アカウントに該当する利用者はいません。"
+    "persona-error-invaliduser": "あなたのペルソナ アカウントに該当する利用者はいません。",
+    "persona-signup-username": "利用者名:",
+    "persona-signup-password": "パスワード:",
+    "persona-signup-name": "名前 (省略可能):",
+    "persona-signup-email": "メールアドレス:"
 }

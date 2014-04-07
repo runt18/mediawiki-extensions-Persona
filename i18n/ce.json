@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Умар"
+        ]
+    },
+    "persona-login": "ЧугӀо Persona лелаеш",
+    "personasignup": "ЧугӀо Persona гӀоьнца",
+    "persona-signup-username": "Декъашхочун цӀе:",
+    "persona-signup-password": "Пароль:",
+    "persona-signup-name": "ЦӀе (тӀехь дац):",
+    "persona-signup-email": "Электронан почтан адрес:",
+    "persona-signup-legend": "Иштта электронан почтан адрес долуш декъашхочун дӀаяздар дац Persona. Кхолла дӀаяздар кхузахь."
+}
