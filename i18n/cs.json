@@ -4,6 +4,17 @@
             "Mormegil"
         ]
     },
-    "persona-login": "Přihlásit pomocí Persona",
-    "persona-desc": "Umožňuje uživatelům přihlásit se pomocí účtu Mozilla Persona."
+    "persona-login": "Přihlásit pomocí Persony",
+    "persona-desc": "Umožňuje uživatelům přihlásit se pomocí účtu Mozilla Persona.",
+    "persona-error-insecure": "Přihlašování přes nezabezpečené spojení není dovoleno.",
+    "persona-error-failure": "Personě se nepodařilo ověřit vaši identitu.",
+    "persona-error-dberror": "Došlo k vnitřní databázové chybě.",
+    "persona-error-invaliduser": "Vašemu účtu Persona neodpovídá žádný uživatel.",
+    "persona-error-multipleusers": "Se stejnou e-mailovou adresou jako váš účet Persona existuje několik uživatelů. Pro přihlašování pomocí Persony musí váš účet mít unikátní e-mailovou adresu.",
+    "personasignup": "Založit účet pomocí Persony",
+    "persona-signup-username": "Uživatelské jméno:",
+    "persona-signup-password": "Heslo:",
+    "persona-signup-name": "Jméno (nepovinné):",
+    "persona-signup-email": "E-mailová adresa:",
+    "persona-signup-legend": "K této e-mailové adrese Persona neexistuje žádný účet. Zde si účet založte."
 }
