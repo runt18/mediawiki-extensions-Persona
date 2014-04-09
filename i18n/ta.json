@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "ElangoRamanujam"
+        ]
+    },
+    "persona-signup-username": "பயனர் பெயர்:",
+    "persona-signup-password": "கடவுச்சொல்:",
+    "persona-signup-name": "பெயர் (விரும்பினால்)",
+    "persona-signup-email": "மின்னஞ்சல் முகவரி:"
+}

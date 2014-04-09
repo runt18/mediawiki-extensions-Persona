@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Armando-Martin",
-            "Fitoschido"
+            "Fitoschido",
+            "VegaDark"
         ]
     },
     "persona-login": "Iniciar sesión con Persona",
@@ -11,5 +12,6 @@
     "persona-signup-username": "Nombre de usuario:",
     "persona-signup-password": "Contraseña:",
     "persona-signup-name": "Nombre (opcional):",
-    "persona-signup-email": "Dirección de correo electrónico:"
+    "persona-signup-email": "Dirección de correo electrónico:",
+    "persona-signup-legend": "No existe una cuenta Persona con esta dirección de correo electrónico. Crear una cuenta aquí."
 }
