@@ -12,6 +12,7 @@
     "persona-error-dberror": "发生内部数据库错误。",
     "persona-error-invaliduser": "这里没有用户匹配你的Persona账户。",
     "persona-error-multipleusers": "这里有多个用户使用了与你的Persona账户相同的电子邮件地址。你用Persona登录的账户必须有一个唯一的电子邮件地址。",
+    "personasignup": "与角色注册",
     "persona-signup-username": "用户名：",
     "persona-signup-password": "密码：",
     "persona-signup-name": "姓名（可选）：",

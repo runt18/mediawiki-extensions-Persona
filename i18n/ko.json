@@ -14,7 +14,7 @@
     "persona-error-invaliduser": "Persona 계정과 일치하는 사용자가 없습니다.",
     "persona-error-multipleusers": "같은 이메일을 사용하는 여러 개의 사용자가 있습니다. 계정은 Persona로 로그인하기 위해서는 고유한 이메일 주소를 가져야 합니다.",
     "persona-signup-username": "사용자 이름:",
-    "persona-signup-password": "비밀 번호:",
+    "persona-signup-password": "비밀번호:",
     "persona-signup-name": "이름 (선택 사항):",
     "persona-signup-email": "이메일 주소:"
 }
