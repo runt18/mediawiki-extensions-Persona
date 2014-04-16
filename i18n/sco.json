@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "John Reid"
-        ]
-    },
-    "persona-login": "Log in wi Persona",
-    "personasignup": "Sign up wi Persona",
-    "persona-signup-username": "Uisername:",
-    "persona-signup-password": "Passwaird:",
-    "persona-signup-name": "Name (aen optie):",
-    "persona-signup-email": "Email address:",
-    "persona-signup-legend": "Nae accoont exeests wi this Persona e-mail address. Creaut aen accoont here."
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"persona-login": "Log in wi Persona",
+	"personasignup": "Sign up wi Persona",
+	"persona-signup-username": "Uisername:",
+	"persona-signup-password": "Passwaird:",
+	"persona-signup-name": "Name (aen optie):",
+	"persona-signup-email": "Email address:",
+	"persona-signup-legend": "Nae accoont exeests wi this Persona e-mail address. Creaut aen accoont here."
 }

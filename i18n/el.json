@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Indoril"
-        ]
-    },
-    "persona-login": "Συνδεθείτε με το Persona",
-    "personasignup": "Εγγραφείτε με το Persona",
-    "persona-signup-username": "Όνομα χρήστη:",
-    "persona-signup-password": "Κωδικός:",
-    "persona-signup-name": "Όνομα (προαιρετικό):",
-    "persona-signup-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου:",
-    "persona-signup-legend": "Δεν υπάρχει λογαριασμός με αυτή τη διεύθυνση e-mail Persona. Δημιουργήστε ένα λογαριασμό εδώ."
+	"@metadata": {
+		"authors": [
+			"Indoril"
+		]
+	},
+	"persona-login": "Συνδεθείτε με το Persona",
+	"personasignup": "Εγγραφείτε με το Persona",
+	"persona-signup-username": "Όνομα χρήστη:",
+	"persona-signup-password": "Κωδικός:",
+	"persona-signup-name": "Όνομα (προαιρετικό):",
+	"persona-signup-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου:",
+	"persona-signup-legend": "Δεν υπάρχει λογαριασμός με αυτή τη διεύθυνση e-mail Persona. Δημιουργήστε ένα λογαριασμό εδώ."
 }

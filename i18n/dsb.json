@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "persona-login": "Pśizjawjenje z Persona",
-    "persona-desc": "Zmóžnja wužywarjam se z jich kontom Mozilla Persona pśizjawiś."
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"persona-login": "Pśizjawjenje z Persona",
+	"persona-desc": "Zmóžnja wužywarjam se z jich kontom Mozilla Persona pśizjawiś."
 }

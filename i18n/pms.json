@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Borichèt",
-            "Dragonòt"
-        ]
-    },
-    "persona-login": "Intré ant ël sistema con Persona",
-    "persona-desc": "A përmëtt a j'utent d'intré ant ël sistema con sò cont Mozilla Persona."
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"persona-login": "Intré ant ël sistema con Persona",
+	"persona-desc": "A përmëtt a j'utent d'intré ant ël sistema con sò cont Mozilla Persona."
 }

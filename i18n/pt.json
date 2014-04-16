@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fúlvio"
-        ]
-    },
-    "persona-login": "Entrar com Persona",
-    "persona-desc": "Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona."
+	"@metadata": {
+		"authors": [
+			"Fúlvio"
+		]
+	},
+	"persona-login": "Entrar com Persona",
+	"persona-desc": "Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona."
 }

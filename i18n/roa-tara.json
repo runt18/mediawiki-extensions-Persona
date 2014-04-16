@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "persona-login": "Tràse cu Persona",
-    "persona-desc": "Permette a l'utinde de trasè cu 'u cunde lore de Mozilla Persona."
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"persona-login": "Tràse cu Persona",
+	"persona-desc": "Permette a l'utinde de trasè cu 'u cunde lore de Mozilla Persona."
 }

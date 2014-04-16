@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin",
-            "Fitoschido",
-            "VegaDark"
-        ]
-    },
-    "persona-login": "Iniciar sesión con Persona",
-    "persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona",
-    "personasignup": "Registro con Persona",
-    "persona-signup-username": "Nombre de usuario:",
-    "persona-signup-password": "Contraseña:",
-    "persona-signup-name": "Nombre (opcional):",
-    "persona-signup-email": "Dirección de correo electrónico:",
-    "persona-signup-legend": "No existe una cuenta Persona con esta dirección de correo electrónico. Crear una cuenta aquí."
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido",
+			"VegaDark"
+		]
+	},
+	"persona-login": "Iniciar sesión con Persona",
+	"persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona",
+	"personasignup": "Registro con Persona",
+	"persona-signup-username": "Nombre de usuario:",
+	"persona-signup-password": "Contraseña:",
+	"persona-signup-name": "Nombre (opcional):",
+	"persona-signup-email": "Dirección de correo electrónico:",
+	"persona-signup-legend": "No existe una cuenta Persona con esta dirección de correo electrónico. Crear una cuenta aquí."
 }

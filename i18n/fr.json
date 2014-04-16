@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "persona-login": "Connexion avec Persona",
-    "persona-desc": "Permet aux utilisateurs de se connecter avec leur compte Persona de Mozilla.",
-    "persona-error-insecure": "Se connecter via une connexion non sécurisée n’est pas autorisé.",
-    "persona-error-failure": "Persona n’a pas réussi à vérifier votre identité.",
-    "persona-error-dberror": "Une erreur de base de données interne s’est produite.",
-    "persona-error-invaliduser": "Il n’y a pas d’utilisateur qui corresponde à votre compte Persona.",
-    "persona-error-multipleusers": "Il y a plusieurs utilisateurs avec la même adresse de courriel que votre compte Persona. Votre compte doit avoir une adresse de courriel unique pour que vous puissiez vous connecter avec Persona.",
-    "personasignup": "S’inscrire avec Persona",
-    "persona-signup-username": "Nom d’utilisateur :",
-    "persona-signup-password": "Mot de passe :",
-    "persona-signup-name": "Nom (facultatif) :",
-    "persona-signup-email": "Adresse de courriel :",
-    "persona-signup-legend": "Aucune compte n’existe avec cette adresse électronique de Persona. Créer un compte ici."
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"persona-login": "Connexion avec Persona",
+	"persona-desc": "Permet aux utilisateurs de se connecter avec leur compte Persona de Mozilla.",
+	"persona-error-insecure": "Se connecter via une connexion non sécurisée n’est pas autorisé.",
+	"persona-error-failure": "Persona n’a pas réussi à vérifier votre identité.",
+	"persona-error-dberror": "Une erreur de base de données interne s’est produite.",
+	"persona-error-invaliduser": "Il n’y a pas d’utilisateur qui corresponde à votre compte Persona.",
+	"persona-error-multipleusers": "Il y a plusieurs utilisateurs avec la même adresse de courriel que votre compte Persona. Votre compte doit avoir une adresse de courriel unique pour que vous puissiez vous connecter avec Persona.",
+	"personasignup": "S’inscrire avec Persona",
+	"persona-signup-username": "Nom d’utilisateur :",
+	"persona-signup-password": "Mot de passe :",
+	"persona-signup-name": "Nom (facultatif) :",
+	"persona-signup-email": "Adresse de courriel :",
+	"persona-signup-legend": "Aucune compte n’existe avec cette adresse électronique de Persona. Créer un compte ici."
 }

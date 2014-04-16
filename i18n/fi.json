@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Silvonen"
-        ]
-    },
-    "persona-login": "Kirjaudu Persona-tunnuksella"
+	"@metadata": {
+		"authors": [
+			"Silvonen"
+		]
+	},
+	"persona-login": "Kirjaudu Persona-tunnuksella"
 }

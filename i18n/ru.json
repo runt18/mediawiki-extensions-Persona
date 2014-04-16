@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "NBS",
-            "Okras"
-        ]
-    },
-    "persona-login": "Войти, используя Persona",
-    "persona-desc": "Позволяет пользователям входить с помощью их учётной записи в Mozilla Persona.",
-    "persona-error-insecure": "Вход через незащищённое соединение не разрешён.",
-    "persona-error-failure": "Persona не смогла проверить вашу личность.",
-    "persona-error-dberror": "Произошла внутренняя ошибка базы данных.",
-    "persona-error-invaliduser": "Нет пользователя с указанной вами учётной записью.",
-    "persona-error-multipleusers": "Существует несколько пользователей с тем же адресом электронной почты, что и у вашей учётной записи Persona. Ваша учётная запись должна иметь уникальный адрес электронной почты для того, чтоб можно было входить с помощью Persona.",
-    "personasignup": "Войти с помощью Persona",
-    "persona-signup-username": "Имя участника:",
-    "persona-signup-password": "Пароль:",
-    "persona-signup-name": "Имя (необязательно):",
-    "persona-signup-email": "Адрес электронной почты:",
-    "persona-signup-legend": "Не существует учётной записи с таких адресом электронной почты Persona. Создайте учётную запись здесь."
+	"@metadata": {
+		"authors": [
+			"NBS",
+			"Okras"
+		]
+	},
+	"persona-login": "Войти, используя Persona",
+	"persona-desc": "Позволяет пользователям входить с помощью их учётной записи в Mozilla Persona.",
+	"persona-error-insecure": "Вход через незащищённое соединение не разрешён.",
+	"persona-error-failure": "Persona не смогла проверить вашу личность.",
+	"persona-error-dberror": "Произошла внутренняя ошибка базы данных.",
+	"persona-error-invaliduser": "Нет пользователя с указанной вами учётной записью.",
+	"persona-error-multipleusers": "Существует несколько пользователей с тем же адресом электронной почты, что и у вашей учётной записи Persona. Ваша учётная запись должна иметь уникальный адрес электронной почты для того, чтоб можно было входить с помощью Persona.",
+	"personasignup": "Войти с помощью Persona",
+	"persona-signup-username": "Имя участника:",
+	"persona-signup-password": "Пароль:",
+	"persona-signup-name": "Имя (необязательно):",
+	"persona-signup-email": "Адрес электронной почты:",
+	"persona-signup-legend": "Не существует учётной записи с таких адресом электронной почты Persona. Создайте учётную запись здесь."
 }

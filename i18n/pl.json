@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps"
-        ]
-    },
-    "persona-error-insecure": "Logowanie przez niezabezpieczone połączenie nie jest dozwolone.",
-    "persona-error-dberror": "Wystąpił błąd wewnętrzny bazy danych.",
-    "persona-signup-username": "Nazwa użytkownika:",
-    "persona-signup-password": "Hasło:",
-    "persona-signup-email": "Adres e‐mail:"
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"persona-error-insecure": "Logowanie przez niezabezpieczone połączenie nie jest dozwolone.",
+	"persona-error-dberror": "Wystąpił błąd wewnętrzny bazy danych.",
+	"persona-signup-username": "Nazwa użytkownika:",
+	"persona-signup-password": "Hasło:",
+	"persona-signup-email": "Adres e‐mail:"
 }

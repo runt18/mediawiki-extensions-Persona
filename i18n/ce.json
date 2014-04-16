@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "persona-login": "ЧугӀо Persona лелаеш",
-    "persona-desc": "Декъашхошан Mozilla Persona чохь долу шай дӀаяздарца чубала таро хуьлуьйту.",
-    "personasignup": "ЧугӀо Persona гӀоьнца",
-    "persona-signup-username": "Декъашхочун цӀе:",
-    "persona-signup-password": "Пароль:",
-    "persona-signup-name": "ЦӀе (тӀехь дац):",
-    "persona-signup-email": "Электронан почтан адрес:",
-    "persona-signup-legend": "Иштта электронан почтан адрес долуш декъашхочун дӀаяздар дац Persona. Кхолла дӀаяздар кхузахь."
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"persona-login": "ЧугӀо Persona лелаеш",
+	"persona-desc": "Декъашхошан Mozilla Persona чохь долу шай дӀаяздарца чубала таро хуьлуьйту.",
+	"personasignup": "ЧугӀо Persona гӀоьнца",
+	"persona-signup-username": "Декъашхочун цӀе:",
+	"persona-signup-password": "Пароль:",
+	"persona-signup-name": "ЦӀе (тӀехь дац):",
+	"persona-signup-email": "Электронан почтан адрес:",
+	"persona-signup-legend": "Иштта электронан почтан адрес долуш декъашхочун дӀаяздар дац Persona. Кхолла дӀаяздар кхузахь."
 }

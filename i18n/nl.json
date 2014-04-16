@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand",
-            "Southparkfan",
-            "Wiki13",
-            "SPQRobin"
-        ]
-    },
-    "persona-login": "Aanmelden met Persona",
-    "persona-desc": "Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.",
-    "persona-error-insecure": "Aanmelden via een niet-beveiligde verbinding is niet toegestaan.",
-    "persona-error-failure": "Persona kon uw identiteit niet verifiëren.",
-    "persona-error-dberror": "Er is een interne databasefout opgetreden.",
-    "persona-error-invaliduser": "Er is geen gebruiker die overeenkomt met uw Personagebruiker.",
-    "persona-error-multipleusers": "Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona.",
-    "persona-signup-username": "Gebruikersnaam:",
-    "persona-signup-password": "Wachtwoord:",
-    "persona-signup-name": "Naam (optioneel):",
-    "persona-signup-email": "E-mailadres:",
-    "persona-signup-legend": "Er bestaat geen gebruiker met dit e-mailadres voor Persona. Maak hier een gebruiker aan."
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"Southparkfan",
+			"Wiki13",
+			"SPQRobin"
+		]
+	},
+	"persona-login": "Aanmelden met Persona",
+	"persona-desc": "Maakt het mogelijk om gebruikers aan te laten melden met hun Mozilla Personagebruiker.",
+	"persona-error-insecure": "Aanmelden via een niet-beveiligde verbinding is niet toegestaan.",
+	"persona-error-failure": "Persona kon uw identiteit niet verifiëren.",
+	"persona-error-dberror": "Er is een interne databasefout opgetreden.",
+	"persona-error-invaliduser": "Er is geen gebruiker die overeenkomt met uw Personagebruiker.",
+	"persona-error-multipleusers": "Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona.",
+	"persona-signup-username": "Gebruikersnaam:",
+	"persona-signup-password": "Wachtwoord:",
+	"persona-signup-name": "Naam (optioneel):",
+	"persona-signup-email": "E-mailadres:",
+	"persona-signup-legend": "Er bestaat geen gebruiker met dit e-mailadres voor Persona. Maak hier een gebruiker aan."
 }
