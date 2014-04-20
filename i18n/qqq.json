@@ -17,5 +17,8 @@
 	"persona-signup-username": "Signup username label for [[Special:Persona]].\n{{Identical|Username}}",
 	"persona-signup-password": "Signup password label for [[Special:Persona]].\n{{Identical|Password}}",
 	"persona-signup-name": "Signup real name label for [[Special:Persona]]",
-	"persona-signup-email": "Signup email address label for [[Special:Persona]].\n{{Identical|E-mail address}}"
+	"persona-signup-email": "Signup email address label for [[Special:Persona]].\n{{Identical|E-mail address}}",
+    "persona-signup-question": "Signup question asking user if user would like to tie Persona email with an account",
+    "persona-signup-new-account": "Signup button legend indicating user does not have an account",
+    "persona-signup-existing-account": "Signup button legend indicating user does have an account"
 }

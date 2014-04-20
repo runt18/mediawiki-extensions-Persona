@@ -23,12 +23,16 @@ class SpecialPersonaSignup extends FormSpecialPage {
 	/**
      * @var LoginForm Special:Userlogin instance used for account creation
      */
+	const OPTION_CREATE = 0;
+	const OPTION_LOGIN = 1;
+
 	private $mLoginForm;
+	private $mCreateOrLogin;
 
 	function __construct() {
 		parent::__construct( 'PersonaSignup' );
 		$this->mLoginForm = new LoginForm();
-
+		$this->mCreateOrLogin = self::OPTION_CREATE;
 	}
 
 	function getMessagePrefix() {
@@ -64,31 +68,62 @@ class SpecialPersonaSignup extends FormSpecialPage {
 				'label-message' => 'persona-signup-name',
 				'required' => false,
 			),
+			'Question' => array(
+				'type' => 'radio',
+				'label-message' => 'persona-signup-question',
+				'options-messages' => array(
+					'persona-signup-new-account' => self::OPTION_CREATE,
+					'persona-signup-existing-account' => self::OPTION_LOGIN,
+				),
+				'default' => $this->mCreateOrLogin,
+			),
+			'Password' => array(
+				'type' => 'password',
+				'default' => '',
+			 ),
 			'CreateaccountToken' => array(
 				'type' => 'hidden',
 				'default' => LoginForm::getCreateaccountToken(),
+			),
+			'LoginToken' => array(
+				'type' => 'hidden',
+				'default' => LoginForm::getLoginToken(),
 			),
 		);
 	}
 
 	function onSubmit( array $data ) {
-		global $wgRedirectOnLogin, $wgSecureLogin;
-
 		$personaEmail = $this->getRequest()->getSessionData( 'persona_email' );
+		$data['PersonaEmail'] = $personaEmail;
+		$this->mCreateOrLogin = $data['Question'];
+
+		if ( $this->mCreateOrLogin == self::OPTION_CREATE ) {
+			$this->createAccount( $data );
+		} else {
+			$this->associateAccount( $data );
+		}
+
+		unset( $_SESSION['persona_email'] );
+
+		return true;
+	}
+
+	function createAccount( array $data ) {
+		global $wgSecureLogin;
+
 		$context = new DerivativeContext( $this->getContext() );
 		$context->setRequest( new DerivativeRequest(
 			$this->getContext()->getRequest(),
 			array(
 				'type' => 'signup',
 				'wpName' => $data['Name'],
-				'wpEmail' => $personaEmail,
+				'wpEmail' => $data['PersonaEmail'],
 				'wpRealName' => $data['RealName'],
 				'wpCreateaccountToken' => $data['CreateaccountToken'],
 				'wpCreateaccountMail' => true,
 			)
-		));
+		) );
 
-		$this->mLoginForm = new LoginForm();
 		$this->mLoginForm->setContext( $context );
 		$this->mLoginForm->load();
 
@@ -120,13 +155,37 @@ class SpecialPersonaSignup extends FormSpecialPage {
 		}
 
 		LoginForm::clearLoginToken();
-		unset( $_SESSION['persona_email'] );
+	}
 
-		return true;
+	function associateAccount( array $data ) {
+		$context = new DerivativeContext( $this->getContext() );
+		$context->setRequest( new DerivativeRequest(
+			$this->getContext()->getRequest(),
+			array(
+			'type' => 'login',
+			'wpName' => $data['Name'],
+			'wpPassword' => $data['Password'],
+			'wpLoginToken' => $data['LoginToken'],
+			)
+		) );
+
+		$this->mLoginForm->setContext( $context );
+		$this->mLoginForm->load();
+		$this->mLoginForm->processLogin();
+
+		// Save email used with Persona as current user's email
+		$currentUser = $this->mLoginForm->getUser();
+		$currentUser->setEmail( $data['PersonaEmail'] );
+		$currentUser->confirmEmail();
+		$currentUser->saveSettings();
 	}
 
 	function onSuccess() {
-		$this->mLoginForm->successfulCreation();
+		if ( $this->mCreateOrLogin == self::OPTION_CREATE ) {
+			$this->mLoginForm->successfulCreation();
+		} else {
+			$this->mLoginForm->successfulLogin();
+		}
 	}
 
 }
