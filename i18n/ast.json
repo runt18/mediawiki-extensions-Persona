@@ -10,5 +10,11 @@
 	"persona-error-failure": "Persona nun pudo comprobar la so identidá.",
 	"persona-error-dberror": "Hebo un error de base de datos internu.",
 	"persona-error-invaliduser": "Nun hai dengún usuariu que case cola so cuenta de Persona.",
-	"persona-error-multipleusers": "Hai múltiples usuarios cola mesma direición de corréu que la cuenta de Persona. La so cuenta tien de tener una direición de corréu única p'aniciar sesión con Persona."
+	"persona-error-multipleusers": "Hai múltiples usuarios cola mesma direición de corréu que la cuenta de Persona. La so cuenta tien de tener una direición de corréu única p'aniciar sesión con Persona.",
+	"personasignup": "Rexistrase con Persona",
+	"persona-signup-username": "Nome d'usuariu:",
+	"persona-signup-password": "Contraseña:",
+	"persona-signup-name": "Nome (opcional):",
+	"persona-signup-email": "Corréu electrónicu:",
+	"persona-signup-legend": "Nun esiste nenguna cuenta con esta direición de corréu de Persona. Cree equí una cuenta."
 }
