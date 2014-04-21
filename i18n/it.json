@@ -1,12 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"PeppeAeco"
 		]
 	},
 	"persona-login": "Accedi con Persona",
 	"persona-desc": "Permette agli utenti di effettuare l'accesso tramite la loro l'utenza Mozilla Persona.",
 	"persona-error-insecure": "Non è consentito l'accesso tramite una connessione non sicura.",
 	"persona-error-failure": "Persona non è riuscito a verificare la tua identità.",
-	"persona-error-dberror": "Si è verificato un errore interno nel database."
+	"persona-error-dberror": "Si è verificato un errore interno nel database.",
+	"personasignup": "Iscriviti a Persona",
+	"persona-signup-username": "Nome utente:",
+	"persona-signup-password": "Password:",
+	"persona-signup-name": "Nome (facoltativo):",
+	"persona-signup-email": "Indirizzo e-mail:",
+	"persona-signup-legend": "Non esiste nessun account con questo indirizzo di posta elettronica. Creare un account qui."
 }
