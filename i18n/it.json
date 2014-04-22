@@ -14,6 +14,6 @@
 	"persona-signup-username": "Nome utente:",
 	"persona-signup-password": "Password:",
 	"persona-signup-name": "Nome (facoltativo):",
-	"persona-signup-email": "Indirizzo e-mail:",
-	"persona-signup-legend": "Non esiste nessun account con questo indirizzo di posta elettronica. Creare un account qui."
+	"persona-signup-email": "Indirizzo email:",
+	"persona-signup-legend": "Non esiste nessuna utenza con questo indirizzo di posta elettronica. Crea un'utenza qui."
 }
