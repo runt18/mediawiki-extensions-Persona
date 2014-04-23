@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"WikiPhoenix",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Fader"
 		]
 	},
 	"persona-login": "Logga in med Persona",
@@ -15,5 +16,6 @@
 	"persona-signup-username": "Användarnamn:",
 	"persona-signup-password": "Lösenord:",
 	"persona-signup-name": "Namn (valfritt):",
-	"persona-signup-email": "E-postadress:"
+	"persona-signup-email": "E-postadress:",
+	"persona-signup-legend": "Det finns inget Persona-konto med denna e-postadress. Skapa ett konto här."
 }
