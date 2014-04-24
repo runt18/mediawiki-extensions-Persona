@@ -21,7 +21,11 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Persona',
 	'version' => '0.6.0',
-	'author' => 'Tyler Romeo',
+	'author' => array(
+		'Tyler Romeo',
+		'Don Yu',
+		'Stephen Zhou',
+	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Persona',
 	'descriptionmsg' => 'persona-desc'
 );
