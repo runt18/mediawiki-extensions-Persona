@@ -16,5 +16,8 @@
 	"persona-signup-password": "Mot de passe :",
 	"persona-signup-name": "Nom (facultatif) :",
 	"persona-signup-email": "Adresse de courriel :",
-	"persona-signup-legend": "Aucune compte n’existe avec cette adresse électronique de Persona. Créer un compte ici."
+	"persona-signup-legend": "Aucune compte n’existe avec cette adresse électronique de Persona. Créer un compte ici.",
+	"persona-signup-question": "Avez-vous un compte existant ?",
+	"persona-signup-new-account": "Non, je n’ai pas de compte existant",
+	"persona-signup-existing-account": "Oui, j’ai un mot de passe"
 }

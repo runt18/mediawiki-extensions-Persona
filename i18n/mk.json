@@ -16,5 +16,8 @@
 	"persona-signup-password": "Лозинка:",
 	"persona-signup-name": "Име (незадолжително)",
 	"persona-signup-email": "Е-пошта:",
-	"persona-signup-legend": "Не постои сметка со таква е-пошта. Направете сметка тука."
+	"persona-signup-legend": "Не постои сметка со таква е-пошта. Направете сметка тука.",
+	"persona-signup-question": "Дали имате постоечка сметка?",
+	"persona-signup-new-account": "Не, немам постоечка сметка.",
+	"persona-signup-existing-account": "Да, имам лозинка."
 }

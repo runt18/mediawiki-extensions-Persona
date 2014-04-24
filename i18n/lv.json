@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"persona-login": "Pieteikties ar Persona",
+	"persona-signup-username": "Lietotājvārds:",
+	"persona-signup-password": "Parole:",
+	"persona-signup-email": "E-pasta adrese:"
+}

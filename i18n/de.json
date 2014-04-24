@@ -16,5 +16,8 @@
 	"persona-signup-password": "Passwort:",
 	"persona-signup-name": "Name (optional):",
 	"persona-signup-email": "E-Mail-Adresse:",
-	"persona-signup-legend": "Es ist kein Benutzerkonto mit dieser Persona-E-Mail-Adresse vorhanden. Hier ein Benutzerkonto erstellen."
+	"persona-signup-legend": "Es ist kein Benutzerkonto mit dieser Persona-E-Mail-Adresse vorhanden. Hier ein Benutzerkonto erstellen.",
+	"persona-signup-question": "Hast du schon ein vorhandenes Benutzerkonto?",
+	"persona-signup-new-account": "Nein, ich habe noch kein Benutzerkonto",
+	"persona-signup-existing-account": "Ja, ich habe ein Passwort"
 }

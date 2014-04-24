@@ -10,6 +10,8 @@
 	"persona-error-insecure": "Non è consentito l'accesso tramite una connessione non sicura.",
 	"persona-error-failure": "Persona non è riuscito a verificare la tua identità.",
 	"persona-error-dberror": "Si è verificato un errore interno nel database.",
+	"persona-error-invaliduser": "Nessun utente corrisponde al tuo account Persona.",
+	"persona-error-multipleusers": "Ci sono più utenti con lo stesso indirizzo email del tuo account Persona. Il tuo account deve avere un indirizzo email univoco per accedere con Persona.",
 	"personasignup": "Iscriviti a Persona",
 	"persona-signup-username": "Nome utente:",
 	"persona-signup-password": "Password:",

@@ -12,5 +12,6 @@
 	"persona-signup-username": "利用者名:",
 	"persona-signup-password": "パスワード:",
 	"persona-signup-name": "名前 (省略可能):",
-	"persona-signup-email": "メールアドレス:"
+	"persona-signup-email": "メールアドレス:",
+	"persona-signup-legend": "この Persona メールアドレスに該当する利用者は存在しません。ここで作成してください。"
 }
