@@ -16,5 +16,8 @@
 	"persona-signup-username": "用户名：",
 	"persona-signup-password": "密码：",
 	"persona-signup-name": "姓名（可选）：",
-	"persona-signup-email": "电子邮件地址："
+	"persona-signup-email": "电子邮件地址：",
+	"persona-signup-question": "您是否已拥有一个账户？",
+	"persona-signup-new-account": "否，我现在没有账户",
+	"persona-signup-existing-account": "是，我有密码"
 }
