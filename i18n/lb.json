@@ -14,5 +14,6 @@
 	"persona-signup-username": "Benotzernumm:",
 	"persona-signup-password": "Passwuert:",
 	"persona-signup-name": "Numm (fakultativ):",
-	"persona-signup-email": "E-Mail-Adress:"
+	"persona-signup-email": "E-Mail-Adress:",
+	"persona-signup-existing-account": "Jo, ech hunn e Passwuert"
 }
