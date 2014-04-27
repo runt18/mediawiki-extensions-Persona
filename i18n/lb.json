@@ -15,5 +15,7 @@
 	"persona-signup-password": "Passwuert:",
 	"persona-signup-name": "Numm (fakultativ):",
 	"persona-signup-email": "E-Mail-Adress:",
+	"persona-signup-question": "Hutt Dir schonn ee Benotzerkont?",
+	"persona-signup-new-account": "Neen, Ech hunn nach kee Benotzerkont",
 	"persona-signup-existing-account": "Jo, ech hunn e Passwuert"
 }

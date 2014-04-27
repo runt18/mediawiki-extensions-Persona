@@ -11,5 +11,6 @@
 	"persona-signup-password": "Пароль:",
 	"persona-signup-name": "ЦӀе (тӀехь дац):",
 	"persona-signup-email": "Электронан почтан адрес:",
-	"persona-signup-legend": "Иштта электронан почтан адрес долуш декъашхочун дӀаяздар дац Persona. Кхолла дӀаяздар кхузахь."
+	"persona-signup-legend": "Иштта электронан почтан адрес долуш декъашхочун дӀаяздар дац Persona. Кхолла дӀаяздар кхузахь.",
+	"persona-signup-question": "Хьан дуй долуш долу декъашхочун дӀаяздар?"
 }
