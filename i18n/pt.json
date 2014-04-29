@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fúlvio"
+			"Fúlvio",
+			"Imperadeiro98"
 		]
 	},
 	"persona-login": "Entrar com Persona",
-	"persona-desc": "Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona."
+	"persona-desc": "Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona.",
+	"persona-signup-question": "Tem uma conta existente?",
+	"persona-signup-new-account": "Não, eu não tenho uma conta existente",
+	"persona-signup-existing-account": "Sim, eu tenho uma palavra-cahve"
 }
