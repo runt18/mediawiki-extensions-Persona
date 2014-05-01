@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"PeppeAeco"
+			"PeppeAeco",
+			"Ontsed"
 		]
 	},
 	"persona-login": "Accedi con Persona",
@@ -17,5 +18,8 @@
 	"persona-signup-password": "Password:",
 	"persona-signup-name": "Nome (facoltativo):",
 	"persona-signup-email": "Indirizzo email:",
-	"persona-signup-legend": "Non esiste nessuna utenza con questo indirizzo di posta elettronica. Crea un'utenza qui."
+	"persona-signup-legend": "Non esiste nessuna utenza con questo indirizzo di posta elettronica. Crea un'utenza qui.",
+	"persona-signup-question": "Hai un account esistente?",
+	"persona-signup-new-account": "No, non ho un account esistente",
+	"persona-signup-existing-account": "Sì, ho una password"
 }

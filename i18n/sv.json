@@ -17,5 +17,8 @@
 	"persona-signup-password": "Lösenord:",
 	"persona-signup-name": "Namn (valfritt):",
 	"persona-signup-email": "E-postadress:",
-	"persona-signup-legend": "Det finns inget Persona-konto med denna e-postadress. Skapa ett konto här."
+	"persona-signup-legend": "Det finns inget Persona-konto med denna e-postadress. Skapa ett konto här.",
+	"persona-signup-question": "Har du ett befintligt konto?",
+	"persona-signup-new-account": "Nej, jag har inte ett befintligt konto",
+	"persona-signup-existing-account": "Ja, jag har ett lösenord"
 }

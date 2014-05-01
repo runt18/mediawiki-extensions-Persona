@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"Cwlin0416"
 		]
 	},
 	"persona-login": "以Persona登入",
-	"persona-desc": "容許用戶使用Mozilla Persona帳戶登入。"
+	"persona-desc": "容許用戶使用Mozilla Persona帳戶登入。",
+	"persona-signup-username": "使用者名稱：",
+	"persona-signup-password": "密碼：",
+	"persona-signup-name": "名稱 (選填)：",
+	"persona-signup-email": "電子郵件位址："
 }
