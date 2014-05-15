@@ -19,6 +19,11 @@ $specialPageAliases['de'] = array(
 	'PersonaSignup' => array( 'Persona-Registrierung' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'PersonaSignup' => array( 'MerdumQeyd' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'PersonaSignup' => array( '角色注册' ),

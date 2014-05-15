@@ -18,5 +18,6 @@
 	"persona-signup-password": "Wachtwoord:",
 	"persona-signup-name": "Naam (optioneel):",
 	"persona-signup-email": "E-mailadres:",
-	"persona-signup-legend": "Er bestaat geen gebruiker met dit e-mailadres voor Persona. Maak hier een gebruiker aan."
+	"persona-signup-legend": "Er bestaat geen gebruiker met dit e-mailadres voor Persona. Maak hier een gebruiker aan.",
+	"persona-signup-existing-account": "Ja, ik heb een wachtwoord"
 }
