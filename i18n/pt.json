@@ -2,12 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Fúlvio",
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Vitorvicentevalente"
 		]
 	},
 	"persona-login": "Entrar com Persona",
 	"persona-desc": "Permite que os utilizadores iniciem sessão com sua conta do Mozilla Persona.",
+	"persona-error-insecure": "Iniciar sessão através de uma conexão insegura não é permitido.",
+	"persona-error-failure": "Persona falhou ao verificar a sua identidade.",
+	"persona-error-dberror": "Ocorreu um erro interno da base de dados.",
+	"personasignup": "Inscrever-se com Persona",
+	"persona-signup-username": "Nome de utilizador:",
+	"persona-signup-password": "Palavra-chave:",
+	"persona-signup-name": "Nome (opcional):",
+	"persona-signup-email": "Endereço de correio electrónico:",
+	"persona-signup-legend": "Não existe nenhuma conta com este endereço de correio eletrónico Persona. Criar uma conta aqui.",
 	"persona-signup-question": "Tem uma conta existente?",
 	"persona-signup-new-account": "Não, eu não tenho uma conta existente",
-	"persona-signup-existing-account": "Sim, eu tenho uma palavra-cahve"
+	"persona-signup-existing-account": "Sim, eu tenho uma palavra-chave"
 }
