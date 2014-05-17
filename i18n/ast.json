@@ -16,5 +16,8 @@
 	"persona-signup-password": "Contraseña:",
 	"persona-signup-name": "Nome (opcional):",
 	"persona-signup-email": "Corréu electrónicu:",
-	"persona-signup-legend": "Nun esiste nenguna cuenta con esta direición de corréu de Persona. Cree equí una cuenta."
+	"persona-signup-legend": "Nun esiste nenguna cuenta con esta direición de corréu de Persona. Cree equí una cuenta.",
+	"persona-signup-question": "¿Tienes una cuenta esistente?",
+	"persona-signup-new-account": "Non, nun tengo una cuenta esistente",
+	"persona-signup-existing-account": "Sí, tengo una contraseña"
 }
