@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'PersonaSignup' => array( 'MerdumQeyd' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'PersonaSignup' => array( 'Persona가입' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'PersonaSignup' => array( '角色注册' ),
