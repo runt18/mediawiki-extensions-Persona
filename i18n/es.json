@@ -8,10 +8,14 @@
 	},
 	"persona-login": "Iniciar sesión con Persona",
 	"persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona",
+	"persona-error-invaliduser": "Ningún usuario coincide con tu cuenta de Persona.",
 	"personasignup": "Registro con Persona",
 	"persona-signup-username": "Nombre de usuario:",
 	"persona-signup-password": "Contraseña:",
 	"persona-signup-name": "Nombre (opcional):",
 	"persona-signup-email": "Dirección de correo electrónico:",
-	"persona-signup-legend": "No existe una cuenta Persona con esta dirección de correo electrónico. Crear una cuenta aquí."
+	"persona-signup-legend": "No existe una cuenta Persona con esta dirección de correo electrónico. Crear una cuenta aquí.",
+	"persona-signup-question": "¿Ya tienes una cuenta?",
+	"persona-signup-new-account": "No, no tengo una cuenta",
+	"persona-signup-existing-account": "Sí, tengo una contraseña"
 }
