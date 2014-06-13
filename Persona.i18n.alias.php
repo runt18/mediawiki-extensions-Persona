@@ -29,6 +29,11 @@ $specialPageAliases['ko'] = array(
 	'PersonaSignup' => array( 'Persona가입' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'PersonaSignup' => array( 'PersonaAanmelden' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'PersonaSignup' => array( '角色注册' ),

@@ -16,5 +16,8 @@
 	"persona-signup-password": "Heslo:",
 	"persona-signup-name": "Jméno (nepovinné):",
 	"persona-signup-email": "E-mailová adresa:",
-	"persona-signup-legend": "K této e-mailové adrese Persona neexistuje žádný účet. Zde si účet založte."
+	"persona-signup-legend": "K této e-mailové adrese Persona neexistuje žádný účet. Zde si účet založte.",
+	"persona-signup-question": "Máte už existující účet?",
+	"persona-signup-new-account": "Ne, existující účet nemám",
+	"persona-signup-existing-account": "Ano, mám heslo"
 }
