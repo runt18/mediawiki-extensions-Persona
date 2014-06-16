@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'PersonaSignup' => array( 'MerdumQeyd' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'PersonaSignup' => array( 'Registrowanje_Persona' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'PersonaSignup' => array( 'Persona가입' ),
