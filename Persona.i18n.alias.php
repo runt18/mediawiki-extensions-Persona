@@ -34,6 +34,11 @@ $specialPageAliases['ko'] = array(
 	'PersonaSignup' => array( 'Persona가입' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'PersonaSignup' => array( 'НајаваСоPersona' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'PersonaSignup' => array( 'PersonaAanmelden' ),

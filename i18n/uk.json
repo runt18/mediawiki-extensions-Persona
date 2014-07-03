@@ -17,5 +17,8 @@
 	"persona-signup-password": "Пароль:",
 	"persona-signup-name": "Ім'я (необов'язково):",
 	"persona-signup-email": "Адреса електронної пошти:",
-	"persona-signup-legend": "Не існує облікового запису з такою адресою електронної пошти Persona. Створіть обліковий запис тут."
+	"persona-signup-legend": "Не існує облікового запису з такою адресою електронної пошти Persona. Створіть обліковий запис тут.",
+	"persona-signup-question": "У вас є існуючий обліковий запис?",
+	"persona-signup-new-account": "Ні, я не маю існуючого облікового запису",
+	"persona-signup-existing-account": "Так, у мене є пароль"
 }
