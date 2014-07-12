@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'PersonaSignup' => array( 'MerdumQeyd' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'PersonaSignup' => array( 'רישום_פרסונה' ),
+);
+
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'PersonaSignup' => array( 'Registrowanje_Persona' ),
