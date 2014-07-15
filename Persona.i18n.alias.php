@@ -14,6 +14,16 @@ $specialPageAliases['en'] = array(
 	'PersonaSignup' => array( 'PersonaSignup' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'PersonaSignup' => array( 'الاشتراك_في_برسونا' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'PersonaSignup' => array( 'اشتراك_برسونا' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'PersonaSignup' => array( 'Persona-Registrierung' ),
