@@ -60,19 +60,6 @@ class ApiPersona extends ApiBase {
 		);
 	}
 
-	function getPossibleErrors() {
-		return array_merge( parent::getPossibleErrors(), array(
-			array( 'sessionfailure' ),
-			array( 'actionthrottledtext' ),
-			array( 'code' => 'insecure', 'info' => 'Secure login is enabled, and an insecure (non-HTTPS) request was made.' ),
-			array( 'code' => 'failure', 'info' => 'The Persona verification API failed to verify your assertion.' ),
-			array( 'code' => 'error', 'info' => 'There was some sort of external server error.' ),
-			array( 'code' => 'dberror', 'info' => 'An internal database error occurred.' ),
-			array( 'code' => 'invaliduser', 'info' => 'No valid user matched the assertion token provided' ),
-			array( 'code' => 'multipleusers', 'info' => 'Multiple users with the same email matched.' )
-		) );
-	}
-
 	function execute() {
 		global $wgSecureLogin;
 		$webRequest = $this->getRequest();
