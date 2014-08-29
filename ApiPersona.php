@@ -60,45 +60,6 @@ class ApiPersona extends ApiBase {
 		);
 	}
 
-	function getResultProperties() {
-		return array( '' => array(
-			'status' => array(
-				ApiBase::PROP_TYPE => array(
-					'okay',
-					'failure',
-					'error',
-					'dberror',
-					'invaliduser',
-					'multipleusers'
-				)
-			),
-			'email' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			),
-			'audience' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			),
-			'expires' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			),
-			'issuer' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			),
-			'reason' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			),
-			'message' => array(
-				ApiBase::PROP_TYPE => 'string',
-				ApiBase::PROP_NULLABLE => true
-			)
-		) );
-	}
-
 	function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
 			array( 'sessionfailure' ),
