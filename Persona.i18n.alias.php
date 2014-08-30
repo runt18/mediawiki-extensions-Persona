@@ -66,5 +66,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'PersonaSignup' => array( '角色登記' ),
+	'PersonaSignup' => array( '角色註冊' ),
 );
