@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Y-M D"
+			"Y-M D",
+			"Fohanno"
 		]
 	},
+	"persona-login": "Kevreañ gant Persona",
 	"persona-signup-username": "Anv implijer :",
 	"persona-signup-password": "Ger-tremen :",
-	"persona-signup-name": "Anv (diret) :"
+	"persona-signup-name": "Anv (diret) :",
+	"persona-signup-email": "Chomlec'h postel :",
+	"persona-signup-existing-account": "Ya, ur ger-tremen am eus"
 }
