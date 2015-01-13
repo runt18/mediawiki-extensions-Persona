@@ -19,9 +19,6 @@
  */
 
 class ApiPersona extends ApiBase {
-	function getVersion() {
-		return __CLASS__ . ': $Id$';
-	}
 
 	function getDescription() {
 		return 'Process Persona login requests and login user if valid.';
