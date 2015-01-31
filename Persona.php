@@ -27,7 +27,8 @@ $wgExtensionCredits['other'][] = array(
 		'Stephen Zhou',
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Persona',
-	'descriptionmsg' => 'persona-desc'
+	'descriptionmsg' => 'persona-desc',
+	'license-name' => 'GPL-3.0+'
 );
 
 /**
