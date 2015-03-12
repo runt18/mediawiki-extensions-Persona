@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"persona-login": "Rexistro con Persona",
@@ -16,5 +17,8 @@
 	"persona-signup-password": "Contrasinal:",
 	"persona-signup-name": "Nome (opcional):",
 	"persona-signup-email": "Enderezo de correo electrónico:",
-	"persona-signup-legend": "Non existe ningunha conta con ese enderezo de correo electrónico. Cree aquí unha conta."
+	"persona-signup-legend": "Non existe ningunha conta con ese enderezo de correo electrónico. Cree aquí unha conta.",
+	"persona-signup-question": "Xa ten una conta existente?",
+	"persona-signup-new-account": "Non, non teño unha conta existente",
+	"persona-signup-existing-account": "Si, teño unha contraseña"
 }
