@@ -3,11 +3,12 @@
 		"authors": [
 			"Beta16",
 			"Shirayuki",
-			"Robby"
+			"Robby",
+			"Umherirrender"
 		]
 	},
 	"persona-login": "Label for the Persona login link and button",
-	"persona-desc": "{{desc|name=Persona|url=http://www.mediawiki.org/wiki/Extension:Persona}}",
+	"persona-desc": "{{desc|name=Persona|url=https://www.mediawiki.org/wiki/Extension:Persona}}",
 	"persona-error-insecure": "Error message displayed using mw.notify when attempting insecure login with $wgSecureLogin enabled",
 	"persona-error-failure": "Error message displayed using mw.notify when the Persona API fails to verify",
 	"persona-error-dberror": "Error message displayed using mw.notify when an internal error occurs",
