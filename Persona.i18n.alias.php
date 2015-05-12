@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'PersonaSignup' => array( 'الاشتراك_في_برسونا' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'PersonaSignup' => array( 'اشتراك_برسونا' ),
 );
