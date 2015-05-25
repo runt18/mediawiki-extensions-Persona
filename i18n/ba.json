@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Рустам Нурыев"
+		]
+	},
+	"persona-login": "Persona ҡулланып танылырға",
+	"personasignup": "Persona ярҙамында танылырға",
+	"persona-signup-username": "Ҡатнашыусы исеме:",
+	"persona-signup-password": "Серһүҙ:",
+	"persona-signup-name": "Исем (мотлаҡ түгел):",
+	"persona-signup-email": "Электрон почта адресы:",
+	"persona-signup-legend": "Persona электрон почта адреслы иҫәп яҙмаһы юҡ. Иҫәп яҙмаһын бында төҙөгөҙ.",
+	"persona-signup-question": "Ғәмәлдәге иҫәп яҙыуығыҙ бармы?",
+	"persona-signup-new-account": "Юҡ, минең иҫәп яҙыуым юҡ.",
+	"persona-signup-existing-account": "Эйе, минең серһүҙем бар"
+}
