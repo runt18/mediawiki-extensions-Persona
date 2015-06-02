@@ -4,7 +4,8 @@
 			"Siebrand",
 			"Southparkfan",
 			"Wiki13",
-			"SPQRobin"
+			"SPQRobin",
+			"Esketti"
 		]
 	},
 	"persona-login": "Aanmelden met Persona",
@@ -14,10 +15,13 @@
 	"persona-error-dberror": "Er is een interne databasefout opgetreden.",
 	"persona-error-invaliduser": "Er is geen gebruiker die overeenkomt met uw Personagebruiker.",
 	"persona-error-multipleusers": "Er zijn meerdere gebruikers met hetzelfde e-mailadres als uw Personagebruiker. Uw gebruiker moet een uniek e-mailadres hebben om aan het kunnen melden met Persona.",
+	"personasignup": "Aanmelden met Persona",
 	"persona-signup-username": "Gebruikersnaam:",
 	"persona-signup-password": "Wachtwoord:",
 	"persona-signup-name": "Naam (optioneel):",
 	"persona-signup-email": "E-mailadres:",
 	"persona-signup-legend": "Er bestaat geen gebruiker met dit e-mailadres voor Persona. Maak hier een gebruiker aan.",
+	"persona-signup-question": "Heeft u een bestaande account?",
+	"persona-signup-new-account": "Nee, ik heb niet een bestaande account",
 	"persona-signup-existing-account": "Ja, ik heb een wachtwoord"
 }
