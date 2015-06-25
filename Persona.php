@@ -45,7 +45,6 @@ $wgHooks['PersonalUrls'][] = 'efAddPersonaLinks';
 $wgAutoloadClasses['SpecialPersonaSignup'] = __DIR__ . '/SpecialPersonaSignup.php';
 $wgAutoloadClasses['ApiPersona'] = __DIR__ . '/ApiPersona.php';
 $wgSpecialPages['PersonaSignup'] = 'SpecialPersonaSignup';
-$wgSpecialPageGroups['PersonaSignup'] = 'login';
 $wgAPIModules['persona'] = 'ApiPersona';
 $wgMessagesDirs['Persona'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Persona'] = __DIR__ . '/Persona.i18n.php';

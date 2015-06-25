@@ -188,4 +188,7 @@ class SpecialPersonaSignup extends FormSpecialPage {
 		}
 	}
 
+	protected function getGroupName() {
+		return 'login';
+	}
 }
