@@ -149,7 +149,7 @@ class ApiPersona extends ApiBase {
 
 				// Add injected HTML as an optional message.
 				$injected_html = '';
-				wfRunHooks( 'UserLoginComplete', array( &$user, &$injected_html ) );
+				Hooks::run( 'UserLoginComplete', array( &$user, &$injected_html ) );
 				$result['message'] = $injected_html;
 			}
 		}

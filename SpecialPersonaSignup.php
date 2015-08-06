@@ -137,7 +137,7 @@ class SpecialPersonaSignup extends FormSpecialPage {
 			$user->confirmEmail();
 			$user->saveSettings();
 
-			wfRunHooks( 'AddNewAccount', array( $user, true ) );
+			Hooks::run( 'AddNewAccount', array( $user, true ) );
 			$user->addNewUserLogEntry( 'create' );
 		} elseif ( !$status->isOK() ) {
 			// There was an error
