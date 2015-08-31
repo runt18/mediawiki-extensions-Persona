@@ -4,14 +4,17 @@
 			"Armando-Martin",
 			"Fitoschido",
 			"VegaDark",
-			"Ryo567"
+			"Ryo567",
+			"Macofe"
 		]
 	},
 	"persona-login": "Iniciar sesión con Persona",
 	"persona-desc": "Permite a los usuarios iniciar sesión con su cuenta de Mozilla Persona",
 	"persona-error-insecure": "No está permitido iniciar sesión desde una conexión no segura.",
+	"persona-error-failure": "Persona no pudo comprobar tu identidad.",
 	"persona-error-dberror": "Se ha producido un error interno en la base de datos.",
 	"persona-error-invaliduser": "Ningún usuario coincide con tu cuenta de Persona.",
+	"persona-error-multipleusers": "Hay varios usuarios con la misma dirección de correo electrónico de tu cuenta Persona. Tu cuenta debe tener una única dirección de correo electrónico para iniciar sesión con Persona.",
 	"personasignup": "Registro con Persona",
 	"persona-signup-username": "Nombre de usuario:",
 	"persona-signup-password": "Contraseña:",
