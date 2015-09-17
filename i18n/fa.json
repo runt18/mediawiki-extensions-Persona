@@ -3,7 +3,8 @@
 		"authors": [
 			"Armin1392",
 			"Ebraminio",
-			"Mjbmr"
+			"Mjbmr",
+			"Reza1615"
 		]
 	},
 	"persona-login": "ورود با پرسونا",
@@ -12,5 +13,8 @@
 	"persona-error-failure": "عدم موفقیت شخصیت برای تأیید هویت شما.",
 	"persona-error-dberror": "یک خطای پایگاه اطلاعاتی داخلی رخ داد.",
 	"persona-error-invaliduser": "هیچ کاربری با حساب شخصی شما مطابقت ندارد.",
-	"persona-error-multipleusers": "چند کاربر با آدرس‌ ایمیل مشابه به عنوان حساب شخصی شما وجود دارند.‌‌‌ \nحساب شما باید یک آدرس ایمیل مخحصر به فرد برای ورود شخصی داشته باشد."
+	"persona-error-multipleusers": "چند کاربر با آدرس‌ ایمیل مشابه به عنوان حساب شخصی شما وجود دارند.‌‌‌ \nحساب شما باید یک آدرس ایمیل مخحصر به فرد برای ورود شخصی داشته باشد.",
+	"persona-signup-username": "نام کاربری:",
+	"persona-signup-password": "کلمه عبور:",
+	"persona-signup-email": "نشانی رایانامه:"
 }
