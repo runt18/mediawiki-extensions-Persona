@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "persona-login": "Log in with Persona",
-    "persona-desc": "Allows users to log in with their Mozilla Persona account",
-    "persona-error-insecure": "Logging in over an insecure connection is not allowed.",
-    "persona-error-failure": "Persona failed to verify your identity.",
-    "persona-error-dberror": "An internal database error occurred.",
-    "persona-error-invaliduser": "There is no user matching your Persona account.",
-    "persona-error-multipleusers": "There are multiple users with the same email address as your Persona account. Your account must have a unique email address to log in with Persona.",
-    "personasignup": "Sign up with Persona",
-    "persona-signup-username": "Username:",
-    "persona-signup-password": "Password:",
-    "persona-signup-name": "Name (optional):",
-    "persona-signup-email": "Email address:",
-    "persona-signup-legend": "No account exists with this Persona email address. Create an account here.",
-    "persona-signup-question": "Do you have an existing account?",
-    "persona-signup-new-account": "No, I don't have an existing account",
-    "persona-signup-existing-account": "Yes, I have a password"
+	"@metadata": {
+		"authors": []
+	},
+	"persona-login": "Log in with Persona",
+	"persona-desc": "Allows users to log in with their Mozilla Persona account",
+	"persona-error-insecure": "Logging in over an insecure connection is not allowed.",
+	"persona-error-failure": "Persona failed to verify your identity.",
+	"persona-error-dberror": "An internal database error occurred.",
+	"persona-error-invaliduser": "There is no user matching your Persona account.",
+	"persona-error-multipleusers": "There are multiple users with the same email address as your Persona account. Your account must have a unique email address to log in with Persona.",
+	"personasignup": "Sign up with Persona",
+	"persona-signup-username": "Username:",
+	"persona-signup-password": "Password:",
+	"persona-signup-name": "Name (optional):",
+	"persona-signup-email": "Email address:",
+	"persona-signup-legend": "No account exists with this Persona email address. Create an account here.",
+	"persona-signup-question": "Do you have an existing account?",
+	"persona-signup-new-account": "No, I don't have an existing account",
+	"persona-signup-existing-account": "Yes, I have a password"
 }
