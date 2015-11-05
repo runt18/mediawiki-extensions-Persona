@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Сербијана"
 		]
 	},
 	"persona-signup-username": "Корисничко име:",
 	"persona-signup-password": "Лозинка:",
-	"persona-signup-email": "Е-пошта:"
+	"persona-signup-email": "Имејл адреса:"
 }
